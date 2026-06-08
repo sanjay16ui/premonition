@@ -391,8 +391,8 @@ export function AnalyticsDashboardPage() {
   }, [popData?.risk_distribution, historyData?.items])
 
   // ── Model Performance (bar) ──
-  const modelPerfData: Array<{ model: string; roc_auc: number; f1: number; recall: number; pr_auc: number }> = React.useMemo(() => 
-    compData?.models
+  const modelPerfData: Array<{ model: string; roc_auc: number; f1: number; recall: number; pr_auc: number }> = React.useMemo(() => {
+    return compData?.models
       ? compData.models.map((m: any) => ({
           model: (m.model_name as string).replace(/_/g, ' '),
           roc_auc: Number((m.roc_auc ?? 0).toFixed(3)),
