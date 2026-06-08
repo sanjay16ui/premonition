@@ -1,0 +1,18 @@
+{
+  "id": "0d32e6c3-ed9b-4f77-9e64-fb8b22ed8013",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis is a potentially life-threatening condition that arises when the body's response to an infection damages its own tissues and organs. It can lead to organ failure, shock, and in severe cases, death if not treated promptly. The key elements of sepsis include systemic inflammatory response syndrome (SIRS) triggered by infection, which can progress to septic shock if blood pressure drops significantly.\n\nAccording to the definition from the Sepsis Alliance:\n\n\"Sepsis is a life-threatening condition that occurs when the body's response to an infection injures its own tissues and organs. It is a medical emergency.\" [1]\n\nThis condition requires immediate medical attention as it can rapidly worsen and lead to organ failure or death.\n\nReferences:\n[1] Sepsis Alliance. (n.d.). What is sepsis? Retrieved from https://sepsis.org/what-is-sepsis/"
+    }
+  ],
+  "created_at": "2026-06-07T09:39:38.461033+00:00",
+  "updated_at": "2026-06-07T09:41:11.630882+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

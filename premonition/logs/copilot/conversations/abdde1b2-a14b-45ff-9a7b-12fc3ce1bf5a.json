@@ -1,0 +1,18 @@
+{
+  "id": "abdde1b2-a14b-45ff-9a7b-12fc3ce1bf5a",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Centers for Disease Control and Prevention (CDC), sepsis is a life-threatening condition that occurs when an infection triggers a severe inflammatory response in the body, causing widespread organ dysfunction. (1)\n\nThe Sepsis Alliance defines sepsis as \"a clinical syndrome characterized by a dysregulated host response to an infection, which can lead to tissue damage, organ dysfunction, and even death.\" (2)\n\nSepsis can be caused by various types of infections, such as pneumonia, urinary tract infections, or skin infections. It is estimated that over 1 million people in the United States develop sepsis each year, resulting in approximately 250,000 deaths. (3)\n\nReferences:\n\n(1) Centers for Disease Control and Prevention. (2020). Sepsis.\n\n(2) Sepsis Alliance. (n.d.). What is Sepsis?\n\n(3) Centers for Disease Control and Prevention. (2019). Sepsis: Data and Statistics."
+    }
+  ],
+  "created_at": "2026-06-07T05:54:48.967423+00:00",
+  "updated_at": "2026-06-07T05:55:48.857655+00:00",
+  "user_id": "dr@test.ai",
+  "metadata": {}
+}

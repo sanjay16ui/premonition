@@ -1,0 +1,18 @@
+{
+  "id": "7a5dcfac-ba59-4cb4-8235-3a4292a06f39",
+  "title": "Hello copilot",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello copilot"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the Sepsis-3 definition, I've assessed the current patient data. However, you haven't provided any patient data. To proceed, please share the patient's vital signs, lab results, and any relevant medical history.\n\nOnce I have this information, I can provide a concise, evidence-based clinical response with specific actionable steps, including lactate measurement within 1 hour as required by the Sepsis-3 guidelines.\n\nPlease provide the following:\n\n- Patient's age, weight, and height\n- Current vital signs (HR, BP, RR, SpO2, Temp)\n- Lab results (WBC, CRP, Lactate, Creatinine, etc.)\n- Relevant medical history (e.g., comorbidities, allergies)\n\nWith this information, I'll be able to:\n\n1. Assess the patient's risk of sepsis using the qSOFA criteria (Sepsis-3).\n2. Calculate the patient's lactate threshold using the SSC guidelines.\n3. Provide specific, actionable clinical recommendations for lactate measurement and other interventions.\n\nPlease provide the necessary patient data to proceed."
+    }
+  ],
+  "created_at": "2026-06-07T12:56:23.934117+00:00",
+  "updated_at": "2026-06-07T12:56:24.861525+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ad2fb25c-b9e1-4bb3-92a3-007b31b04a43",
+  "title": "Explain Sepsis-3 criteria",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain Sepsis-3 criteria"
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis-3, also known as the Third International Consensus Definitions for Sepsis and Septic Shock, was published in 2016 by the Sepsis Definition Task Force. It introduced a new definition of sepsis based on the presence of \"SIRS\" (Systemic Inflammatory Response Syndrome) criteria combined with infection.\n\nThe key changes from previous definitions include:\n\n1. **Sepsis**: Defined as life-threatening organ dysfunction caused by a dysregulated host response to infection.\n2. **Septic Shock**: Defined as sepsis with hypotension that does not respond adequately to appropriate fluid resuscitation, or requires vasopressors.\n\nThe SIRS criteria are no longer used in the definition of sepsis but remain useful for clinical diagnosis and monitoring. The new definitions focus on organ dysfunction and the need for specific interventions, making them more practical for clinical use.\n\nFor a detailed understanding, refer to the full publication by Singer M et al., \"The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3),\" *JAMA*, 2016."
+    }
+  ],
+  "created_at": "2026-06-07T10:51:12.239619+00:00",
+  "updated_at": "2026-06-07T10:52:51.794292+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

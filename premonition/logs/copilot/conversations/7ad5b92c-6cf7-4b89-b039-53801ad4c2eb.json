@@ -1,0 +1,18 @@
+{
+  "id": "7ad5b92c-6cf7-4b89-b039-53801ad4c2eb",
+  "title": "Test conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Test conv"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the ML model analysis, the elevated sepsis risk is primarily driven by elevated vitals and comorbidities. The SHAP explanation indicates these features contributed most to the prediction score. Clinical correlation with Sepsis-3 criteria is recommended."
+    }
+  ],
+  "created_at": "2026-06-05T15:20:37.084116+00:00",
+  "updated_at": "2026-06-05T15:20:37.096766+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

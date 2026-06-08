@@ -1,0 +1,26 @@
+# PREMONITION Prometheus Monitoring Configuration
+# Start: docker compose --profile monitoring up prometheus
+# Access: http://localhost:9090
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - alert_rules.yml
+
+scrape_configs:
+  - job_name: "premonition-api"
+    static_configs:
+      - targets: ["premonition-api:8000", "host.docker.internal:8000"]
+    metrics_path: /api/v1/metrics/prometheus
+    scrape_interval: 10s
+
+  # Prometheus self-monitoring
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+# Alert rules (future — uncomment when API is deployed)
+# rule_files:
+#   - alert_rules.yml

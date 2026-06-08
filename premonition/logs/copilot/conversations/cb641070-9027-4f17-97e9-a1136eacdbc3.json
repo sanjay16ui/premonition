@@ -1,0 +1,18 @@
+{
+  "id": "cb641070-9027-4f17-97e9-a1136eacdbc3",
+  "title": "What is Sepsis-3?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is Sepsis-3?"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\n[2] Sepsis protocol: measure lactate within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-06T15:37:44.410312+00:00",
+  "updated_at": "2026-06-06T15:37:44.412149+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

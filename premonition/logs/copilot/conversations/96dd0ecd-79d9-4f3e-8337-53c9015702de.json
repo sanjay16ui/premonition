@@ -1,0 +1,18 @@
+{
+  "id": "96dd0ecd-79d9-4f3e-8337-53c9015702de",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'Hello': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T15:20:55.877793+00:00",
+  "updated_at": "2026-06-05T15:20:55.880459+00:00",
+  "user_id": "user1",
+  "metadata": {}
+}

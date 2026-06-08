@@ -1,0 +1,18 @@
+{
+  "id": "f86823cb-dbc2-4c5b-9b19-77b97099db86",
+  "title": "Hello copilot",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello copilot"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-06T01:36:13.532919+00:00",
+  "updated_at": "2026-06-06T01:36:13.535453+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

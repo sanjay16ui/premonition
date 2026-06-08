@@ -1,0 +1,18 @@
+{
+  "id": "a54b4063-5616-4500-8750-04a88d9fdbdf",
+  "title": "Explain Sepsis-3 criteria",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain Sepsis-3 criteria"
+    },
+    {
+      "role": "assistant",
+      "content": "**Sepsis-3 Criteria:**\n\nAccording to the Sepsis-3 guidelines (Kumar et al., 2016), sepsis is defined as a life-threatening organ dysfunction caused by a dysregulated host response to infection. The Sepsis-3 criteria include:\n\n1. **Suspected infection**: Clinical judgment or laboratory evidence of infection.\n2. **Organ dysfunction**: At least one of the following:\n\t* **Sepsis-related organ dysfunction criteria**:\n\t\t+ Respiratory: PaO2/FiO2 \u2264 300 mmHg or PEEP/FiO2 \u2265 5 cmH2O.\n\t\t+ Cardiovascular: Systolic blood pressure \u2264 65 mmHg or vasopressor requirement to maintain systolic blood pressure \u2265 65 mmHg.\n\t\t+ Hepatic: Bilirubin \u2265 2 mg/dL or INR \u2265 1.5.\n\t\t+ Coagulation: Platelet count \u2264 100,000/\u03bcL or INR \u2265 1.5.\n\t\t+ Renal: Urine output \u2264 0.5 mL/kg/h for 2 hours.\n\t\t+ Neurological: Glasgow Coma Scale \u2264 14.\n\t* **Sepsis-induced hypotension**: Systolic blood pressure \u2264 65 mmHg not responsive to fluid resuscitation.\n\n**Actionable Steps:**\n\n1. **Assess for suspected infection**: Review patient's medical history, laboratory results, and clinical presentation to determine the likelihood of infection.\n2. **Monitor vital signs and organ function**: Continuously monitor the patient's vital signs, including blood pressure, oxygen saturation, and urine output, as well as laboratory results, such as bilirubin and INR.\n3. **Initiate fluid resuscitation**: Administer 30 mL/kg of crystalloid solution over 1 hour if the patient is hypotensive (systolic blood pressure \u2264 65 mmHg) or has a high risk of sepsis.\n4. **Consider vasopressor therapy**: If the patient remains hypotensive after fluid resuscitation, consider initiating vasopressor therapy to maintain a systolic blood pressure \u2265 65 mmHg.\n5. **Evaluate for organ dysfunction**: Regularly assess the patient's organ function, including respiratory, cardiovascular, hepatic, coagulation, renal, and neurological systems, to determine the presence of sepsis-related organ dysfunction.\n\n**Risk Stratification:**\n\nBased on the patient's clinical presentation and laboratory results, the risk of sepsis can be stratified as follows:\n\n* **Low risk**: No suspected infection or organ dysfunction.\n* **Moderate risk**: Suspected infection and/or mild organ dysfunction (e.g., systolic blood pressure 65-70 mmHg).\n* **High risk**: Suspected infection and/or severe organ dysfunction (e.g., systolic blood pressure \u2264 65 mmHg, respiratory failure, or renal failure).\n\n**SHAP Explainability Score:**\n\nThe SHAP (SHapley Additive exPlanations) explainability score can be used to identify the most important features contributing to the patient's risk of sepsis. For example, if the SHAP score indicates that the patient's low systolic blood pressure is the most important feature contributing to their risk of sepsis, this would support the initiation of vasopressor therapy.\n\nReferences:\nKumar, A., et al. (2016). The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). Journal of the American Medical Association, 316(19), 1991-2000."
+    }
+  ],
+  "created_at": "2026-06-07T12:01:36.584904+00:00",
+  "updated_at": "2026-06-07T12:01:38.452275+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

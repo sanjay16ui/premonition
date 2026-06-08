@@ -1,0 +1,39 @@
+{
+  "dashboard": {
+    "title": "PREMONITION Production Dashboard",
+    "tags": ["premonition", "healthcare", "mlops"],
+    "timezone": "utc",
+    "panels": [
+      {
+        "title": "Predictions Total",
+        "type": "stat",
+        "targets": [{ "expr": "premonition_predictions_total" }]
+      },
+      {
+        "title": "Sepsis Alerts",
+        "type": "stat",
+        "targets": [{ "expr": "premonition_sepsis_alerts_total" }]
+      },
+      {
+        "title": "Model Loaded",
+        "type": "gauge",
+        "targets": [{ "expr": "premonition_model_loaded" }]
+      },
+      {
+        "title": "Avg Latency (ms)",
+        "type": "graph",
+        "targets": [{ "expr": "premonition_avg_latency_ms" }]
+      },
+      {
+        "title": "API Uptime",
+        "type": "graph",
+        "targets": [{ "expr": "premonition_uptime_seconds" }]
+      },
+      {
+        "title": "Alerts Fired",
+        "type": "table",
+        "targets": [{ "expr": "premonition_alerts_fired_total" }]
+      }
+    ]
+  }
+}

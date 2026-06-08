@@ -1,0 +1,82 @@
+........................................................................ [ 13%]
+........................................................................ [ 26%]
+........................................................................ [ 40%]
+........................................................................ [ 53%]
+........................................................................ [ 67%]
+........................................................................ [ 80%]
+........................................................................ [ 94%]
+................................                                         [100%]
+============================== warnings summary ===============================
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_predict_returns_result
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_uses_three_models
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_high_score_triggers_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_low_score_no_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_confidence_assigned
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2684: UserWarning: X has feature names, but StandardScaler was fitted without feature names
+    warnings.warn(
+
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_predict_returns_result
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_uses_three_models
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_high_score_triggers_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_low_score_no_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_confidence_assigned
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2684: UserWarning: X has feature names, but RandomForestClassifier was fitted without feature names
+    warnings.warn(
+
+tests/test_analytics_population.py::TestCohortAnalysis::test_comorbidity_segments
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+    return np.nanmean(a, axis, out=out, keepdims=keepdims)
+
+tests/test_api.py::TestValidation::test_predict_rejects_invalid_age
+tests/test_api.py::TestValidation::test_predict_rejects_extra_fields
+tests/test_api.py::TestValidation::test_batch_rejects_duplicate_ids
+tests/test_otp.py::TestRequestOTP::test_request_otp_invalid_email_returns_422
+tests/test_otp.py::TestVerifyOTP::test_verify_non_numeric_code_returns_422
+tests/test_otp.py::TestVerifyOTP::test_verify_code_too_short_returns_422
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py:59: DeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+    response = await handler(conn, exc)
+
+tests/test_api.py: 2 warnings
+tests/test_e2e.py: 2 warnings
+tests/test_explainability.py: 1 warning
+tests/test_integration.py: 3 warnings
+tests/test_load_stress.py: 30 warnings
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\shap\explainers\_linear.py:123: FutureWarning: The feature_perturbation option is now deprecated in favor of using the appropriate masker (maskers.Independent, maskers.Partition or maskers.Impute).
+    warnings.warn(wmsg, FutureWarning)
+
+tests/test_auth.py::test_login_success
+tests/test_auth.py::test_refresh_token
+tests/test_auth.py::test_me_endpoint
+tests/test_auth.py::test_jwt_access_grants_api
+tests/test_auth.py::test_create_api_key_admin
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 30 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    return self._jws.encode(
+
+tests/test_auth.py::test_refresh_token
+tests/test_auth.py::test_me_endpoint
+tests/test_auth.py::test_jwt_access_grants_api
+tests/test_auth.py::test_create_api_key_admin
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 30 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    decoded = self.decode_complete(
+
+tests/test_copilot_rag.py::TestFaissStore::test_faiss_add_search
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\faiss\loader.py:49: DeprecationWarning: numpy.core._multiarray_umath is deprecated and has been renamed to numpy._core._multiarray_umath. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core._multiarray_umath.__cpu_features__.
+    from numpy.core._multiarray_umath import __cpu_features__
+
+tests/test_rbac.py::test_auditor_denied_mlops
+tests/test_rbac.py::test_admin_can_access_mlops
+tests/test_rbac.py::test_clinician_denied_mlops_manage
+tests/test_rbac.py::test_executive_can_read_metrics
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 16 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    return self._jws.encode(
+
+tests/test_rbac.py::test_auditor_denied_mlops
+tests/test_rbac.py::test_admin_can_access_mlops
+tests/test_rbac.py::test_clinician_denied_mlops_manage
+tests/test_rbac.py::test_executive_can_read_metrics
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 16 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    decoded = self.decode_complete(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+536 passed, 73 warnings in 126.10s (0:02:06)
+

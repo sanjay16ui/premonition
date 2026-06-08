@@ -1,0 +1,18 @@
+{
+  "id": "af888853-627d-496b-b809-b7f932ad3476",
+  "title": "What is Sepsis-3?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is Sepsis-3?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Sepsis-3 definition, sepsis is a life-threatening condition caused by a dysregulated host response to infection. The Sepsis-3 definition, published in 2016, emphasizes the importance of organ dysfunction in the diagnosis of sepsis. \n\nThe Sepsis-3 definition includes three components: \n\n1. Suspected infection\n2. Organ dysfunction\n3. A combination of clinical criteria, such as the Sequential Organ Failure Assessment (SOFA) score or the quick SOFA (qSOFA) score.\n\nSource: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016.\" Intensive Care Med. 2016;42(12):361-379. doi: 10.1007/s00134-016-4688-7"
+    }
+  ],
+  "created_at": "2026-06-07T11:21:55.776414+00:00",
+  "updated_at": "2026-06-07T11:22:00.347044+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

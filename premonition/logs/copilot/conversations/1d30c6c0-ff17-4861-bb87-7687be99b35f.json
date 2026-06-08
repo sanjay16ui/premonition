@@ -1,0 +1,18 @@
+{
+  "id": "1d30c6c0-ff17-4861-bb87-7687be99b35f",
+  "title": "Explain Sepsis-3 criteria",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain Sepsis-3 criteria"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the ML model analysis, the elevated sepsis risk is primarily driven by elevated vitals and comorbidities. The SHAP explanation indicates these features contributed most to the prediction score. Clinical correlation with Sepsis-3 criteria is recommended."
+    }
+  ],
+  "created_at": "2026-06-05T16:09:52.733397+00:00",
+  "updated_at": "2026-06-05T16:09:52.736112+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

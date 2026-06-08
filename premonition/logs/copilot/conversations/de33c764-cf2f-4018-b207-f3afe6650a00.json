@@ -1,0 +1,18 @@
+{
+  "id": "de33c764-cf2f-4018-b207-f3afe6650a00",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Centers for Disease Control and Prevention (CDC), sepsis is a life-threatening condition that occurs when an infection causes an overwhelming immune response, leading to organ dysfunction or failure. (1)\n\nSepsis can be caused by a variety of infections, including pneumonia, urinary tract infections, and bloodstream infections. It is often characterized by symptoms such as fever, chills, rapid heart rate, and low blood pressure. If left untreated, sepsis can lead to serious complications, including organ failure, shock, and even death.\n\nThe Surviving Sepsis Campaign, a global initiative led by the Society of Critical Care Medicine (SCCM) and the European Society of Intensive Care Medicine (ESICM), defines sepsis as \"a clinical syndrome characterized by the presence of infection and evidence of organ dysfunction.\" (2)\n\nReferences:\n\n1. Centers for Disease Control and Prevention. (2020). Sepsis. Retrieved from <https://www.cdc.gov/sepsis/index.html>\n2. Surviving Sepsis Campaign. (2016). Definitions for Sepsis and Organ Dysfunction and the Acute Care Syndrome. Retrieved from <https://www.survivingsepsis.org/Definitions-for-Sepsis-and-Organ-Dysfunction-and-the-Acute-Care-Syndrome/>"
+    }
+  ],
+  "created_at": "2026-06-07T07:22:22.849768+00:00",
+  "updated_at": "2026-06-07T07:23:51.381338+00:00",
+  "user_id": "sanjaykumarsk0416@gmail.com",
+  "metadata": {}
+}

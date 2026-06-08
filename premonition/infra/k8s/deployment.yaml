@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: premonition-api
+  namespace: premonition
+  labels:
+    app: premonition-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: premonition-api
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: premonition-api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: "/api/v1/metrics/prometheus"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 1000
+      containers:
+        - name: api
+          image: premonition-ml:0.1.0
+          imagePullPolicy: IfNotPresent
+          command: ["api"]
+          ports:
+            - containerPort: 8000
+              name: http
+          envFrom:
+            - configMapRef:
+                name: premonition-config
+            - secretRef:
+                name: premonition-secrets
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              cpu: "2"
+              memory: "4Gi"
+          livenessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: 8000
+            initialDelaySeconds: 60
+            periodSeconds: 30
+            timeoutSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          volumeMounts:
+            - name: models
+              mountPath: /app/models/artifacts
+            - name: logs
+              mountPath: /app/logs
+      volumes:
+        - name: models
+          persistentVolumeClaim:
+            claimName: premonition-models-pvc
+        - name: logs
+          persistentVolumeClaim:
+            claimName: premonition-logs-pvc

@@ -1,0 +1,18 @@
+{
+  "id": "0fe4fbaf-4d53-479e-9676-ce4e80ae0635",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Centers for Disease Control and Prevention (CDC), sepsis is a life-threatening condition that occurs when an infection triggers a severe inflammatory response in the body, leading to organ dysfunction or failure. (1)\n\nSepsis can be caused by various types of infections, such as pneumonia, urinary tract infections, or skin infections. The CDC defines three stages of sepsis:\n\n1. Sepsis: A patient has evidence of infection and at least two of the following: temperature > 38\u00b0C or < 36\u00b0C, heart rate > 90 beats per minute, respiratory rate > 20 breaths per minute, or white blood cell count > 12,000 cells per cubic millimeter.\n2. Severe sepsis: Sepsis with acute organ dysfunction (e.g., hypotension, oliguria, or lactic acidosis) and/or lactic acid levels greater than 2 mmol/L.\n3. Septic shock: Severe sepsis with hypotension that is refractory to fluid replacement and vasopressors.\n\nEarly recognition and treatment of sepsis are critical to improving patient outcomes. The Surviving Sepsis Campaign, a global initiative led by the Society of Critical Care Medicine (SCCM) and the European Society of Intensive Care Medicine (ESICM), provides guidelines for the management of sepsis. (2)\n\nReferences:\n\n1. Centers for Disease Control and Prevention. (2020). Sepsis. Retrieved from <https://www.cdc.gov/sepsis/index.html>\n2. Surviving Sepsis Campaign. (2016). International Guidelines for Management of Severe Sepsis and Septic Shock: 2016. Retrieved from <https://www.survivingsepsis.org/Practice/Guidelines/>"
+    }
+  ],
+  "created_at": "2026-06-06T14:24:30.030774+00:00",
+  "updated_at": "2026-06-06T14:27:21.312629+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "7f508a67-9d83-4591-97e9-9c1375e1834d",
+  "title": "What is the sepsis bundle?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the sepsis bundle?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the Sepsis-3 definition and the Surviving Sepsis Campaign (SSC) guidelines, the sepsis bundle is a set of evidence-based interventions that, when implemented promptly, can significantly improve outcomes for septic patients.\n\n**Sepsis Bundle:**\n\n1. **Lactate Measurement**: Obtain a lactate level within the first 3 hours of presentation. If the lactate is elevated (>2 mmol/L), consider it a sepsis indicator. (SSC guideline, 2016)\n2. **Fluid Resuscitation**: Administer 30 mL/kg of crystalloid fluids (e.g., 0.9% NaCl) within the first 3 hours. Monitor for signs of fluid overload. (SSC guideline, 2016)\n3. **Blood Cultures**: Obtain blood cultures before initiating antibiotics. (SSC guideline, 2016)\n4. **Broad-Spectrum Antibiotics**: Administer broad-spectrum antibiotics within 1 hour of presentation. Consider a combination of beta-lactam and beta-lactamase inhibitor agents (e.g., piperacillin-tazobactam). (SSC guideline, 2016)\n5. **Vasopressors**: Consider vasopressor support if blood pressure remains below 65 mmHg despite fluid resuscitation. (SSC guideline, 2016)\n\n**Immediate Next Steps:**\n\nFor Patient XYZ (hypothetical patient data):\n\n- Obtain a lactate level within the next 30 minutes.\n- Administer 30 mL/kg of 0.9% NaCl within the next 1 hour.\n- Obtain blood cultures before initiating antibiotics.\n- Administer broad-spectrum antibiotics (e.g., piperacillin-tazobactam) within the next 30 minutes.\n- Monitor for signs of fluid overload and adjust fluid resuscitation accordingly.\n\nPlease note that these recommendations are based on the provided context and may need to be adjusted based on the specific patient's condition and clinical presentation."
+    }
+  ],
+  "created_at": "2026-06-07T12:58:22.638959+00:00",
+  "updated_at": "2026-06-07T12:58:24.789947+00:00",
+  "user_id": "clinician",
+  "metadata": {}
+}

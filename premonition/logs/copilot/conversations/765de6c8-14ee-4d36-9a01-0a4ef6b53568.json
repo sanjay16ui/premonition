@@ -1,0 +1,18 @@
+{
+  "id": "765de6c8-14ee-4d36-9a01-0a4ef6b53568",
+  "title": "Quick question 3",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 3"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, I can answer your question. However, you haven't asked a question yet. Please proceed with your question. I'll do my best to provide a prompt and accurate response."
+    }
+  ],
+  "created_at": "2026-06-07T11:22:26.250081+00:00",
+  "updated_at": "2026-06-07T11:22:26.911886+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

@@ -1,0 +1,26 @@
+{
+  "id": "63846d42-0ee2-4b72-adaa-d83d55993396",
+  "title": "First message",
+  "messages": [
+    {
+      "role": "user",
+      "content": "First message"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    },
+    {
+      "role": "user",
+      "content": "Follow up"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-05T15:36:10.743882+00:00",
+  "updated_at": "2026-06-05T15:36:10.797748+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

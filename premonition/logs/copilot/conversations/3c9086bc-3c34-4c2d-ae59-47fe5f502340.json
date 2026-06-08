@@ -1,0 +1,18 @@
+{
+  "id": "3c9086bc-3c34-4c2d-ae59-47fe5f502340",
+  "title": "Test message",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Test message"
+    },
+    {
+      "role": "assistant",
+      "content": "Since this is a test message, I'll provide a general response to demonstrate my capabilities. However, please note that actual patient data is required for personalized and actionable recommendations.\n\n**General Response:**\n\nAs a Clinical AI Copilot, I'm ready to assist with clinical decision-making. To provide accurate and actionable recommendations, please provide me with the patient's vital signs, medical history, and any relevant lab results. This will enable me to:\n\n1. Assess the patient's risk for sepsis and other critical conditions (Sepsis-3, SSC guidelines).\n2. Identify potential areas for improvement in patient care.\n3. Provide evidence-based recommendations for treatment and management.\n\n**Immediate Next Steps:**\n\n1. Collect and provide the patient's vital signs, including:\n\t* Temperature (\u00b0C or \u00b0F)\n\t* Heart rate (bpm)\n\t* Respiratory rate (breaths/min)\n\t* Blood pressure (mmHg)\n\t* Oxygen saturation (%)\n2. Share the patient's medical history, including any relevant allergies, medications, and previous medical conditions.\n3. Provide any relevant lab results, such as:\n\t* Complete Blood Count (CBC)\n\t* Blood cultures\n\t* Lactate levels\n\nOnce I receive this information, I'll be able to provide personalized and actionable recommendations for the patient's care."
+    }
+  ],
+  "created_at": "2026-06-07T12:40:53.363754+00:00",
+  "updated_at": "2026-06-07T12:40:56.417053+00:00",
+  "user_id": "user2",
+  "metadata": {}
+}

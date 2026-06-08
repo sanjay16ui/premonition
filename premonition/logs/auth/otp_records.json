@@ -1,0 +1,24 @@
+{
+  "yogesh6274@gmail.com": {
+    "email": "yogesh6274@gmail.com",
+    "otp_hash": "d7042a839498dfd21c7ab8daaa9bc1535ddbbc2e1cfaec66ae4b0346d23b9a10",
+    "salt": "17ef56eab650fd2e99e814824cca129e",
+    "created_at": "2026-06-07T15:04:20.134417+00:00",
+    "expires_at": "2026-06-07T15:14:20.134417+00:00",
+    "attempts": 0,
+    "locked_until": null,
+    "request_count_this_hour": 1,
+    "hour_window_start": "2026-06-07T15:04:20.134417+00:00"
+  },
+  "yogeshc6274@gmail.com": {
+    "email": "yogeshc6274@gmail.com",
+    "otp_hash": "d198f0978863e637bfccf169f6addc2f5edda9c06c2276c7a2b5ce78bb6e7177",
+    "salt": "66bc96413a5ea22a9d09f72e6e22b773",
+    "created_at": "2026-06-07T15:04:36.296376+00:00",
+    "expires_at": "2026-06-07T15:14:36.296376+00:00",
+    "attempts": 0,
+    "locked_until": null,
+    "request_count_this_hour": 1,
+    "hour_window_start": "2026-06-07T15:04:36.296376+00:00"
+  }
+}

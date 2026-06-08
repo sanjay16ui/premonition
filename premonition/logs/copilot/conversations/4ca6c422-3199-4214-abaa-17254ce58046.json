@@ -1,0 +1,18 @@
+{
+  "id": "4ca6c422-3199-4214-abaa-17254ce58046",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Definition and Overview**\n\nSepsis is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs. It is a medical emergency that requires prompt recognition and treatment (1).\n\n**Causes and Risk Factors**\n\nSepsis can be caused by a variety of factors, including bacterial, viral, or fungal infections. The risk factors for sepsis include:\n\n* Age (older adults and young children are more susceptible)\n* Weakened immune system (e.g., due to chronic illness or cancer)\n* Chronic medical conditions (e.g., diabetes, heart disease)\n* Trauma or injury\n* Recent surgery\n* Poor wound care\n\n**Symptoms and Diagnosis**\n\nThe symptoms of sepsis can vary, but may include:\n\n* Fever or hypothermia\n* Rapid heart rate\n* Rapid breathing rate\n* Confusion or altered mental state\n* Abdominal pain or tenderness\n* Nausea and vomiting\n* Diarrhea or constipation\n\nA diagnosis of sepsis is typically made based on a combination of clinical evaluation, laboratory tests (e.g., blood cultures, complete blood count), and imaging studies (e.g., chest X-ray, CT scan).\n\n**Treatment and Prognosis**\n\nTreatment for sepsis typically involves:\n\n* Antibiotics to treat the underlying infection\n* Fluid resuscitation to restore blood pressure and circulation\n* Supportive care (e.g., oxygen therapy, mechanical ventilation)\n* Surgery to remove the source of infection (if necessary)\n\nThe prognosis for sepsis depends on the severity of the condition, the promptness and effectiveness of treatment, and the presence of underlying medical conditions.\n\n**References**\n\n(1) Singer, M., et al. (2016). The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). Journal of the American Medical Association, 315(8), 801-810. doi: 10.1001/jama.2016.0287\n\n(2) Dellinger, R. P., et al. (2013). Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock, 2012. Intensive Care Medicine, 39(3), 165-228. doi: 10.1007/s00134-012-2769-8\n\n(3) Kumar, A., et al. (2006). Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock. Critical Care Medicine, 34(6), 1589-1596. doi: 10.1097/01.ccm.0000217961.75225.c9"
+    }
+  ],
+  "created_at": "2026-06-07T11:19:55.755363+00:00",
+  "updated_at": "2026-06-07T11:19:58.816392+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

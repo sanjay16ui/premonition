@@ -1,0 +1,18 @@
+{
+  "id": "e54eb205-f71f-4dd2-bb44-258ac36c57ab",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Centers for Disease Control and Prevention (CDC), sepsis is a life-threatening condition that occurs when an overwhelming infection triggers a systemic inflammatory response, leading to organ dysfunction or failure. Sepsis can be caused by various pathogens, including bacteria, viruses, fungi, and parasites.\n\nSource: CDC. (2022). Sepsis. Retrieved from <https://www.cdc.gov/sepsis/index.html>\n\nAdditionally, the Society of Critical Care Medicine defines sepsis as \"a clinical syndrome characterized by a systemic inflammatory response to an infection that is severe enough to cause organ dysfunction or failure.\""
+    }
+  ],
+  "created_at": "2026-06-07T05:58:39.053274+00:00",
+  "updated_at": "2026-06-07T05:59:14.449204+00:00",
+  "user_id": "sanjaykumarsk0416@gmail.com",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "841df634-5b8a-4934-b616-4a3bacbc90f0",
+  "title": "Test message",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Test message"
+    },
+    {
+      "role": "assistant",
+      "content": "**Patient Context:**\nUnfortunately, I don't have any patient data provided. Please share the patient's vital signs, medical history, and any relevant lab results for a more accurate response.\n\nHowever, I can provide a general framework for a clinical response.\n\n**General Response Framework:**\n\nTo provide a concise, evidence-based clinical response, I would need the following information:\n\n1. Patient's vital signs (e.g., HR, BP, RR, SpO2, Temp)\n2. Medical history (e.g., comorbidities, allergies)\n3. Relevant lab results (e.g., WBC count, CRP, Lactate)\n\nOnce I have this information, I can provide a specific, actionable clinical response with evidence-based reasoning and clear next steps.\n\nPlease provide the necessary patient data for a more accurate response."
+    }
+  ],
+  "created_at": "2026-06-07T12:58:59.279607+00:00",
+  "updated_at": "2026-06-07T12:59:01.779233+00:00",
+  "user_id": "user2",
+  "metadata": {}
+}

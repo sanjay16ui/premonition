@@ -1,0 +1,29 @@
+name: CD — Deploy
+
+on:
+  workflow_run:
+    workflows: ["CI — Test & Lint"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy-staging:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Kubernetes manifests
+        uses: azure/k8s-lint@v1
+        with:
+          globs: premonition/infra/k8s/*.yaml
+      - name: Validate Helm chart
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+          helm lint premonition/infra/helm/premonition
+      - name: Deployment summary
+        run: |
+          echo "## Deployment Ready" >> $GITHUB_STEP_SUMMARY
+          echo "Image: premonition-ml:${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "Apply: helm upgrade --install premonition infra/helm/premonition -f values-production.yaml" >> $GITHUB_STEP_SUMMARY

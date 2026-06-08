@@ -1,0 +1,18 @@
+{
+  "id": "583089a8-7d40-42af-82e1-d65f7c6cd6fb",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Centers for Disease Control and Prevention (CDC), sepsis is a life-threatening condition that occurs when an infection causes an overwhelming immune response, leading to organ dysfunction or failure. (1)\n\nSepsis can be caused by various types of infections, such as pneumonia, urinary tract infections, skin infections, or bloodstream infections. It can affect anyone, regardless of age or health status.\n\nThe CDC defines sepsis into three stages:\n\n1. Sepsis: A person has an infection and a systemic inflammatory response.\n2. Severe sepsis: Sepsis that is causing organ dysfunction, such as acute kidney injury, respiratory failure, or cardiovascular instability.\n3. Septic shock: The most severe stage of sepsis, characterized by hypotension (low blood pressure) that does not respond to fluid replacement.\n\nSepsis can be difficult to diagnose, especially in the early stages, and requires prompt medical attention to prevent serious complications and death. (2)\n\nReferences:\n\n1. Centers for Disease Control and Prevention. (2020). Sepsis. Retrieved from <https://www.cdc.gov/sepsis/index.html>\n2. World Health Organization. (2018). Sepsis. Retrieved from <https://www.who.int/news-room/fact-sheets/detail/sepsis>"
+    }
+  ],
+  "created_at": "2026-06-07T05:52:05.344362+00:00",
+  "updated_at": "2026-06-07T05:53:37.301147+00:00",
+  "user_id": "dr@test.ai",
+  "metadata": {}
+}

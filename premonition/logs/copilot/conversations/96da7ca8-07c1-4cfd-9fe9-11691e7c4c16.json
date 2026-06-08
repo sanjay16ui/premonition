@@ -1,0 +1,18 @@
+{
+  "id": "96da7ca8-07c1-4cfd-9fe9-11691e7c4c16",
+  "title": "What is Sepsis-3?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is Sepsis-3?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'What is Sepsis-3?': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T16:10:09.220387+00:00",
+  "updated_at": "2026-06-05T16:10:09.222830+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: premonition
+  labels:
+    app.kubernetes.io/name: premonition
+    app.kubernetes.io/part-of: premonition-health

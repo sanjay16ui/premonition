@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: premonition-config
+  namespace: premonition
+data:
+  PREMONITION_TIER: "t1"
+  PREMONITION_LOG_LEVEL: "INFO"
+  PREMONITION_API_HOST: "0.0.0.0"
+  PREMONITION_API_PORT: "8000"
+  PREMONITION_CORS_ORIGINS: "https://premonition.health"
+  PREMONITION_REALTIME_ENABLED: "true"

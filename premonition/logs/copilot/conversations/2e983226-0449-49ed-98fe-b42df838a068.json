@@ -1,0 +1,18 @@
+{
+  "id": "2e983226-0449-49ed-98fe-b42df838a068",
+  "title": "Quick question 3",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 3"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, I'll address the clinician's query.\n\nTo clarify, I need more information about the patient's status. Please provide the patient's lactate level, heart rate, respiratory rate, and blood pressure. This will allow me to provide a more informed response.\n\nOnce I have this information, I can:\n\n1. Assess the patient's lactate level against the Sepsis-3 criteria.\n2. Evaluate the patient's risk of sepsis using the quick Sepsis-related Organ Failure Assessment (qSOFA) tool.\n3. Provide evidence-based recommendations for lactate measurement and sepsis protocol implementation.\n\nPlease provide the patient's vital signs and lactate level, and I'll respond with a concise, actionable clinical plan."
+    }
+  ],
+  "created_at": "2026-06-07T12:42:09.647773+00:00",
+  "updated_at": "2026-06-07T12:42:13.830804+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "157deb80-9c77-4d8b-af85-ecb2ad1b06de",
+  "title": "Give me a 1 sentence summary of sepsis.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me a 1 sentence summary of sepsis."
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis is a potentially life-threatening condition caused by the body's response to an infection, leading to organ dysfunction and potential failure if not treated promptly."
+    }
+  ],
+  "created_at": "2026-06-07T10:35:54.539663+00:00",
+  "updated_at": "2026-06-07T10:35:54.541907+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

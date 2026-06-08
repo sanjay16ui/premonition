@@ -1,0 +1,26 @@
+{
+  "id": "62f9fe6c-b905-46f9-80ab-e01a53930b9d",
+  "title": "Explain sepsis risk factors",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain sepsis risk factors"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the ML model analysis, the elevated sepsis risk is primarily driven by elevated vitals and comorbidities. The SHAP explanation indicates these features contributed most to the prediction score. Clinical correlation with Sepsis-3 criteria is recommended."
+    },
+    {
+      "role": "user",
+      "content": "What about lactate?"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-06T15:58:19.825353+00:00",
+  "updated_at": "2026-06-06T15:58:19.870596+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

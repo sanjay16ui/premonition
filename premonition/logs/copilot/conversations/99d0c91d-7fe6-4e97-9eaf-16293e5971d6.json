@@ -1,0 +1,18 @@
+{
+  "id": "99d0c91d-7fe6-4e97-9eaf-16293e5971d6",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. How can I assist you today?"
+    }
+  ],
+  "created_at": "2026-06-07T11:21:21.843748+00:00",
+  "updated_at": "2026-06-07T11:21:23.793881+00:00",
+  "user_id": "user1",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "33ba944d-69c2-4e54-aa44-ee457b0d744c",
+  "title": "What is Sepsis-3?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is Sepsis-3?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis-3 is a revised definition of sepsis, published in 2016 by the Sepsis-3 Task Force. It emphasizes the importance of quick recognition and management of sepsis. According to Sepsis-3, sepsis is defined as a life-threatening organ dysfunction caused by a dysregulated host response to infection.\n\nTo quickly identify sepsis in our patient, I recommend the following steps:\n\n1. **Measure lactate levels**: As per the Sepsis protocol, measure lactate levels within 1 hour to assess the patient's risk of sepsis. \n   - Target lactate measurement time: < 1 hour\n   - Target lactate value: < 2 mmol/L (normal range)\n\n2. **Assess SOFA score**: Calculate the Sequential Organ Failure Assessment (SOFA) score to evaluate the patient's organ dysfunction. \n   - Target SOFA score: \u2264 2 (normal range)\n\n3. **Evaluate qSOFA criteria**: Assess the quick Sepsis-related Organ Failure Assessment (qSOFA) criteria to quickly identify patients at high risk of sepsis.\n   - Target qSOFA score: \u2264 1 (normal range)\n\nImmediate next steps:\n- Order lactate measurement and SOFA score calculation.\n- Evaluate qSOFA criteria based on the patient's vital signs (RR \u2265 22 breaths/min, BP \u2264 90 mmHg systolic, or GCS \u2264 14).\n\nBy following these steps, we can quickly identify and manage sepsis in our patient, adhering to the Sepsis-3 definition and guidelines."
+    }
+  ],
+  "created_at": "2026-06-07T12:55:42.370133+00:00",
+  "updated_at": "2026-06-07T12:55:47.938475+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

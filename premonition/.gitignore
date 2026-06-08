@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PREMONITION runtime (keep structure, ignore large/generated)
+logs/*.log
+logs/predictions/*.jsonl
+data/processed/**/*
+!data/processed/.gitkeep
+reports/**/*
+!reports/.gitkeep
+
+# Model artifacts (optional — uncomment to exclude large models from git)
+# models/artifacts/**/*
+# !models/artifacts/.gitkeep
+
+# Docker
+.docker/
+
+# Backup archives
+backups/
+
+.env.txt
+*.sqlite
+*.db
+premonition_memory.sqlite

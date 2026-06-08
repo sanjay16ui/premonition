@@ -1,0 +1,18 @@
+{
+  "id": "bc9809c7-fa21-4f13-814d-c02247fe4ed6",
+  "title": "Give me a 1 sentence summary of sepsis.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me a 1 sentence summary of sepsis."
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis is a potentially life-threatening inflammatory response to infection that can lead to organ dysfunction and failure if not treated promptly."
+    }
+  ],
+  "created_at": "2026-06-07T11:05:12.111001+00:00",
+  "updated_at": "2026-06-07T11:05:24.289464+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

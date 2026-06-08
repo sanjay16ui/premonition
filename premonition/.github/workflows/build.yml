@@ -1,0 +1,26 @@
+name: Build — Docker Image
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: premonition
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build production image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./premonition
+          file: ./premonition/Dockerfile
+          push: false
+          tags: premonition-ml:${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

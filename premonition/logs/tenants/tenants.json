@@ -1,0 +1,1805 @@
+[
+  {
+    "id": "premonition-default",
+    "hospital_name": "Default Hospital",
+    "slug": "default",
+    "organization_id": "org-default",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "active",
+    "created_at": "2026-06-05T15:35:54.285890+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true,
+      "max_patients_monitored": 100
+    }
+  },
+  {
+    "id": "tenant-0aed734c049f",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital",
+    "organization_id": "org-07d4e51a82f9",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T15:36:21.058964+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-a54fa5d3ff49",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp",
+    "organization_id": "org-37de557b9202",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T15:36:22.705411+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1a7bc5d68aa6",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-2cdeb247d227",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-05T15:38:19.231814+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-bfd6b738804e",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp",
+    "organization_id": "org-44176a55618e",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-05T15:38:19.296336+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-839f87940ce5",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp",
+    "organization_id": "org-292a152d3b35",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-05T15:38:19.531310+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-8e7aa62cdb86",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital",
+    "organization_id": "org-ea9d1fbabded",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T15:39:15.761160+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-391e2b384ede",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital",
+    "organization_id": "org-4b46bd8d8d1e",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T15:41:59.638953+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-38d8db79d571",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital",
+    "organization_id": "org-c6bf8dc7dd33",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T15:52:52.393995+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-28f68018eab1",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-c635c9be",
+    "organization_id": "org-11bebbba61c2",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T15:54:47.620337+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-10508f75b049",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-753e5065",
+    "organization_id": "org-cd9c3980f5f3",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T15:54:49.112368+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-54ccbade7ab0",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-233b0f9d",
+    "organization_id": "org-6d7ccc86981e",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:01:04.243022+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-5c0825788410",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-f1a01211",
+    "organization_id": "org-4b36635edb43",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:01:06.291646+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-b6464386c6c4",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-d62ca8261ea0",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-05T16:02:42.782358+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c4f2380c835a",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-a99f711f",
+    "organization_id": "org-124a1eadf0e8",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-05T16:02:42.834637+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7ed92f0cf6d5",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-f3b0e59f",
+    "organization_id": "org-3e39672ac265",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-05T16:02:42.985628+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-fee59352ab42",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-31797793",
+    "organization_id": "org-10f5b9a4b1e2",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:02:47.057286+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-efafa9dbf07c",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-058ed12d",
+    "organization_id": "org-374eb8df6c41",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:02:47.169983+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-eaaaea555460",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-bd42adb1",
+    "organization_id": "org-65fb8737264b",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:04:10.121479+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-0e53ea563bcc",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-30be5989",
+    "organization_id": "org-2bedc6e29bc2",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:04:11.541644+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7ba55fc6e702",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-c26d678cddfe",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-05T16:09:56.222789+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-19291a5caabf",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-181a0c57",
+    "organization_id": "org-095299984605",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-05T16:09:56.302866+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-ab365d011d8e",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-36be2416",
+    "organization_id": "org-eb02e0c30883",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-05T16:09:56.575389+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7b447a9b99ae",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-b624527e",
+    "organization_id": "org-1f368e7426b7",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:10:09.603739+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-9f9111fe42e7",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-6db7d9f0",
+    "organization_id": "org-09b5f3a60b5f",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:10:09.755278+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-70523a78958a",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-5d6494943a98",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-05T16:15:51.195563+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-d0a0e2053f48",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-a3ddd782",
+    "organization_id": "org-493c68a1f29a",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-05T16:15:51.295385+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-90c1ba936e65",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-c9f35204",
+    "organization_id": "org-1571766285b5",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-05T16:15:51.567321+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-26be42e86181",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-636ec7f1",
+    "organization_id": "org-a566cd82eb19",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:16:06.720156+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-aefdf3a6b8be",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-a947c546",
+    "organization_id": "org-74954bf71bc7",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:16:06.894062+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-5b8024549742",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-038ff1e4",
+    "organization_id": "org-3ee8d7df4376",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:20:59.073899+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-8dde94b66f13",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-058c8b14",
+    "organization_id": "org-872aafaf9b88",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:21:00.941570+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-afb0d51f3a5a",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-10366519",
+    "organization_id": "org-5160fefd5430",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-05T16:37:22.456255+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-757fd223e885",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-2e8eea62",
+    "organization_id": "org-d72c41ee9702",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-05T16:37:24.699958+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7393103603eb",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-6f60fdc6",
+    "organization_id": "org-124ddd717a36",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T01:36:25.042495+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c49d76de6e12",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-ee1f9595",
+    "organization_id": "org-6f7a8199e64c",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T01:36:26.842277+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-3ff17fb14803",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-8be45525",
+    "organization_id": "org-3d4c49b43796",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T01:41:55.853551+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-769250a856db",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-fc175b8f",
+    "organization_id": "org-74dff066d27f",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T01:41:57.386863+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-5b09ad7ad000",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-24863625c18b",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T01:42:19.209347+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c2a5396305f6",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-95f2473f",
+    "organization_id": "org-c57ecf10b9c6",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T01:42:19.273118+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-24e2ee2616c0",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-f931655f",
+    "organization_id": "org-5669843f3d3d",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T01:42:19.598901+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-557b77529757",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-bdf892f1",
+    "organization_id": "org-5643608b3d8d",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T01:52:14.372395+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1319f6055b44",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-11638b4a",
+    "organization_id": "org-428978366b7a",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T01:52:16.036140+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-8997942e2430",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-d327a324c537",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T01:52:35.506969+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-de50f63f6916",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-09f27046",
+    "organization_id": "org-475003aeddb7",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T01:52:35.570717+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7f5d674a8120",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-c4bc4b2b",
+    "organization_id": "org-80fe91f18674",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T01:52:35.805090+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-011d897922d3",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-ecc72e92",
+    "organization_id": "org-f56226afe3fc",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T13:50:18.974387+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-89648ce280b4",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-c0b98fd7",
+    "organization_id": "org-4a508436e22a",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T13:50:36.577937+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-a837bacdc573",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-f411800ace7b",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T13:52:16.286252+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-4c034585b45a",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-35235e52",
+    "organization_id": "org-4476454f9355",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T13:52:16.700542+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-24509a3b700d",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-ef10cf8d",
+    "organization_id": "org-86f37cf24c9c",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T13:52:17.433165+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-d4f763e689ca",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-6636ac76",
+    "organization_id": "org-4a62a617d87e",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T14:28:15.494148+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-a9fac22737b4",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-8a231cb3",
+    "organization_id": "org-7ed64c5ff782",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T14:28:19.961916+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-a8e4d9303083",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-bd22d87f0c51",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T14:28:54.717069+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-abac6b64f288",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-c3480751",
+    "organization_id": "org-bb68a02ca9ca",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T14:28:54.786449+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-dbe11bc245bf",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-5da01873",
+    "organization_id": "org-1bde64ebc399",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T14:28:55.044177+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c15e4fd81ad9",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-d5d30499",
+    "organization_id": "org-9c3233ab86bf",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T15:37:42.004553+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-f1acb1126daf",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-5d7bbcdc",
+    "organization_id": "org-fd93cda7a47e",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T15:37:47.083736+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-936847a98283",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-00efa8fd626a",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T15:38:32.633226+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-21d7e6e2ca0e",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-b2bc28e1",
+    "organization_id": "org-e38c877bcce3",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T15:38:32.713788+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-5174bea10510",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-9d633879",
+    "organization_id": "org-8a28ca9f0474",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T15:38:32.995280+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-9d6570d2304e",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-fb5021bf",
+    "organization_id": "org-454cb8f67982",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T15:38:51.905354+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-23795f67f31c",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-f5779d8f",
+    "organization_id": "org-b230496245e7",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T15:39:01.446908+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-675bf9ab3f5a",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-5d50701c0a7b",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T15:39:45.128909+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-e0107372cd28",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-d53283ef",
+    "organization_id": "org-94a36caec51f",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T15:39:45.224413+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-aa7028ae3087",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-db542359",
+    "organization_id": "org-64569417b235",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T15:39:45.434901+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c3ca66d61ee0",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-3a6cd75b",
+    "organization_id": "org-b85255c08a0a",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T15:45:12.188010+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-649a5e13a82f",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-7b2e66cd",
+    "organization_id": "org-827bad8e6ff1",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T15:45:17.528685+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-72be415e45d3",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-668a072c4657",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T15:45:49.101393+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-bd5c95b3efba",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-2a8ffeeb",
+    "organization_id": "org-b45a3a7bcd31",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T15:45:49.243915+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-c839dac626bf",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-9d866e6f",
+    "organization_id": "org-faa66551eb15",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T15:45:49.529119+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1fcb9a880fcd",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-39917ab1",
+    "organization_id": "org-72bd9fdafef8",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T15:46:36.793340+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-dd21365c644f",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-8bfdb3d0",
+    "organization_id": "org-adde457c75e5",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T15:46:41.499268+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-79787be00710",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-89955434124c",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T15:47:12.587567+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-d4bc1efa0f7b",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-c132c262",
+    "organization_id": "org-8084f5785482",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T15:47:12.632368+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1728d3190d33",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-27ba30f5",
+    "organization_id": "org-e8a671978716",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T15:47:12.794539+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-9c8c91a42f96",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-e0e844f5",
+    "organization_id": "org-42d4b65734a8",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T15:58:17.862362+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-489d4cd6406f",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-bf6b9639",
+    "organization_id": "org-0b2da114de79",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T15:58:23.200854+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-0e858c09ee45",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-efa78b3ba6e9",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T15:58:53.682810+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-5d80c09a4961",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-6d0841d7",
+    "organization_id": "org-6c4f2e18507d",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T15:58:53.736881+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-97d7207c7411",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-0c627573",
+    "organization_id": "org-95cfa20528fa",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T15:58:53.913010+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-d9fcdc10e03d",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-3fd16f1d",
+    "organization_id": "org-c9b632329fb1",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-06T16:04:39.495692+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-2f2ae21a9d91",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-bfa4d76c",
+    "organization_id": "org-982ed3a5c71a",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-06T16:04:53.212347+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-cf4a8db48a42",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-866cbd1ea480",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-06T16:05:26.262284+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-ab874f26d749",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-0c1bb7c2",
+    "organization_id": "org-b648b3b792cc",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-06T16:05:26.333438+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-53b9b1edb8d6",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-3cd4c1eb",
+    "organization_id": "org-4aec8f12122b",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-06T16:05:26.597323+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-391707ed2a1d",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-0ee9cfbb",
+    "organization_id": "org-d8663763fa02",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-07T11:21:30.982279+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1c375f271936",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-845a3abc",
+    "organization_id": "org-b2d9feb9f1b5",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-07T11:22:07.691619+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-f2a6f272f4a4",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-3ec419ea11ec",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-07T11:23:37.831160+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-9ee53a01685a",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-1e21ad73",
+    "organization_id": "org-e8f4ffbd63ec",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-07T11:23:38.025623+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-dfb15055cf35",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-49dac3bc",
+    "organization_id": "org-2615797482b6",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-07T11:23:38.601166+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-33d33bb1c40c",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-1f00b3d4",
+    "organization_id": "org-cebb7bb2f6e6",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-07T12:41:02.561786+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-8501d23649b9",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-4fae6e12",
+    "organization_id": "org-0bbc5f75c067",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-07T12:41:54.775511+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-7f7998df44fc",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-8a6cd0bd3f1e",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-07T12:43:32.659062+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-ff4b1c81f08e",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-4b16f14b",
+    "organization_id": "org-0a6aa5a68e5a",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-07T12:43:32.924038+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-4183e03db89e",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-8afdfc7e",
+    "organization_id": "org-0169694b7f9e",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-07T12:43:33.746685+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-6e2dfb163349",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-a6835abc",
+    "organization_id": "org-91928330ba80",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-07T12:55:19.081868+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-9adea8c7539a",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-4162017a",
+    "organization_id": "org-06aa6069be2f",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-07T12:56:14.405698+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-1d8bfd947144",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-e614ebed1c21",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-07T12:58:55.743773+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-0d26d44e2376",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-93890e70",
+    "organization_id": "org-a0e547eb787e",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-07T12:58:55.876158+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-06d2fa9f6503",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-3aae5a62",
+    "organization_id": "org-fc61a138068d",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-07T12:58:56.269322+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-86e6ceb53608",
+    "hospital_name": "E2E Hospital",
+    "slug": "e2e-hospital-72d04209",
+    "organization_id": "org-eb2eb61087b9",
+    "timezone": "UTC",
+    "bed_capacity": 300,
+    "icu_beds": 60,
+    "status": "active",
+    "created_at": "2026-06-07T12:59:12.047158+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-396660ad729e",
+    "hospital_name": "Int Hosp",
+    "slug": "int-hosp-55d86cb3",
+    "organization_id": "org-d6931bd6f73c",
+    "timezone": "UTC",
+    "bed_capacity": 50,
+    "icu_beds": 10,
+    "status": "active",
+    "created_at": "2026-06-07T12:59:56.306360+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-78d7cb5a8360",
+    "hospital_name": "Regional Medical",
+    "slug": "regional-med",
+    "organization_id": "org-6dc701447123",
+    "timezone": "UTC",
+    "bed_capacity": 200,
+    "icu_beds": 40,
+    "status": "active",
+    "created_at": "2026-06-07T13:02:20.843976+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-518107abdb3e",
+    "hospital_name": "Onboard Hospital",
+    "slug": "onboard-hosp-cda72cf5",
+    "organization_id": "org-e516609093e3",
+    "timezone": "UTC",
+    "bed_capacity": 150,
+    "icu_beds": 30,
+    "status": "active",
+    "created_at": "2026-06-07T13:02:20.970505+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  },
+  {
+    "id": "tenant-a2f1f2f4da87",
+    "hospital_name": "Deact Hosp",
+    "slug": "deact-hosp-7b8df743",
+    "organization_id": "org-3492d76b5b95",
+    "timezone": "UTC",
+    "bed_capacity": 100,
+    "icu_beds": 20,
+    "status": "inactive",
+    "created_at": "2026-06-07T13:02:21.357318+00:00",
+    "config": {
+      "model_tier": "t1",
+      "realtime_enabled": true,
+      "copilot_enabled": true,
+      "analytics_enabled": true
+    }
+  }
+]

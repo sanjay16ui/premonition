@@ -1,0 +1,26 @@
+{
+  "id": "3f45862f-a8b0-4128-9e00-61cddf642205",
+  "title": "Explain sepsis risk factors",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain sepsis risk factors"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the ML model analysis, the elevated sepsis risk is primarily driven by elevated vitals and comorbidities. The SHAP explanation indicates these features contributed most to the prediction score. Clinical correlation with Sepsis-3 criteria is recommended."
+    },
+    {
+      "role": "user",
+      "content": "What about lactate?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'What about lactate?': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T16:02:47.556262+00:00",
+  "updated_at": "2026-06-05T16:02:47.637237+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

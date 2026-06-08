@@ -1,0 +1,18 @@
+{
+  "id": "2e4023d5-d070-4057-8819-503e319fad4f",
+  "title": "Summarize patient-001",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Summarize patient-001"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not aware of any information about a patient-001. Could you please provide more context or details about patient-001, such as their medical history, symptoms, or any relevant information? This will allow me to provide a more accurate summary.\n\nIf you're referring to a hypothetical patient, I can create a fictional summary based on general medical knowledge. However, please note that this would not be based on actual patient data.\n\nIf you're referring to a real patient, please provide more information or clarify the context, so I can assist you better.\n\nAlso, please note that as a clinical AI copilot, I'm designed to provide accurate and evidence-based information. If you're working with real patient data, I'll do my best to provide a summary based on general medical knowledge and guidelines."
+    }
+  ],
+  "created_at": "2026-06-07T12:23:33.170736+00:00",
+  "updated_at": "2026-06-07T12:23:34.743113+00:00",
+  "user_id": "doctor@premonition.health",
+  "metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2f5df1f9-90ec-4052-9b32-15d80c03f001",
+  "title": "hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today regarding the patient with ID test? Is there a specific concern or information you need help with related to their clinical case?"
+    }
+  ],
+  "created_at": "2026-06-07T09:52:50.611384+00:00",
+  "updated_at": "2026-06-07T09:53:23.396080+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

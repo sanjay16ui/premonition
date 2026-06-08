@@ -1,0 +1,18 @@
+{
+  "id": "2a21a557-9184-4d0d-830e-15c2d3c5eee6",
+  "title": "What is the normal range for heart rate?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the normal range for heart rate?"
+    },
+    {
+      "role": "assistant",
+      "content": "The normal resting heart rate for adults ranges from 60 to 100 beats per minute (bpm). However, athletes and trained individuals may have a lower resting heart rate, often below 60 bpm, which is still considered normal. This range can vary slightly depending on the source or individual factors such as age and overall health.\n\nReference:\n- American Heart Association. (2021). Understanding Your Heart Rate. Retrieved from https://www.heart.org/en/health-topics/consumer-healthcare/what-is-your-target-heart-rate-during-exercise"
+    }
+  ],
+  "created_at": "2026-06-07T10:31:25.051640+00:00",
+  "updated_at": "2026-06-07T10:31:25.092324+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

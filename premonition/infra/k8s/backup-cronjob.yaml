@@ -1,0 +1,42 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: premonition-daily-backup
+  namespace: premonition
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: backup
+              image: premonition-ml:0.1.0
+              command:
+                - python
+                - -c
+                - |
+                  from premonition.config.settings import get_settings
+                  from premonition.ops.backup import BackupService
+                  s = get_settings()
+                  svc = BackupService(s.project_root, s.project_root / "backups")
+                  result = svc.run_backup("daily", s.models_dir, s.logs_dir)
+                  print(result)
+              volumeMounts:
+                - name: backup-storage
+                  mountPath: /app/backups
+                - name: models
+                  mountPath: /app/models/artifacts
+                - name: logs
+                  mountPath: /app/logs
+          volumes:
+            - name: backup-storage
+              persistentVolumeClaim:
+                claimName: premonition-backup-pvc
+            - name: models
+              persistentVolumeClaim:
+                claimName: premonition-models-pvc
+            - name: logs
+              persistentVolumeClaim:
+                claimName: premonition-logs-pvc

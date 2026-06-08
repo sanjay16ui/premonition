@@ -1,0 +1,18 @@
+{
+  "id": "62e807ed-4ded-445c-a0e2-ef7ebe8b615f",
+  "title": "What is the sepsis bundle?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the sepsis bundle?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Sepsis Bundle is a set of evidence-based practices developed by the Surviving Sepsis Campaign (SSC) to improve outcomes for patients with sepsis. The bundle includes six elements:\n\n1. **Measurement of lactate level**: Obtain a lactate level on arrival and after 6 hours (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n2. **Blood cultures**: Obtain blood cultures before administering antibiotics (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n3. **Administration of broad-spectrum antibiotics**: Administer broad-spectrum antibiotics within 3 hours of recognition of sepsis (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n4. **Fluid resuscitation**: Administer 30 mL/kg of crystalloid fluids within 3 hours of recognition of sepsis (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n5. ** Vasopressor use**: Administer vasopressors to maintain a mean arterial pressure (MAP) of 65 mmHg or higher (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n6. **Low-dose corticosteroids**: Consider low-dose corticosteroids for patients with septic shock (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1])\n\nImplementing the Sepsis Bundle has been shown to improve outcomes for patients with sepsis, including reduced mortality rates and shorter hospital stays (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Dellinger et al. [1]).\n\nReferences:\n[1] Dellinger, R. P., et al. (2016). Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Medicine, 42(5), 972-1028."
+    }
+  ],
+  "created_at": "2026-06-07T11:21:01.082785+00:00",
+  "updated_at": "2026-06-07T11:21:02.788152+00:00",
+  "user_id": "clinician",
+  "metadata": {}
+}

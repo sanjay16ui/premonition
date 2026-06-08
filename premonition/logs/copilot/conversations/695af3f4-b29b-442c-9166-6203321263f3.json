@@ -1,0 +1,18 @@
+{
+  "id": "695af3f4-b29b-442c-9166-6203321263f3",
+  "title": "Quick question 7",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 7"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\n[2] Sepsis protocol: measure lactate within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-05T15:54:51.936763+00:00",
+  "updated_at": "2026-06-05T15:54:51.938233+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

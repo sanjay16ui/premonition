@@ -1,0 +1,18 @@
+{
+  "id": "7a501c01-518d-4dab-9e16-3bfe60be1cc3",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'What is sepsis?': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T15:54:38.191320+00:00",
+  "updated_at": "2026-06-05T15:54:38.194004+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

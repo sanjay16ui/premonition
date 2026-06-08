@@ -1,0 +1,310 @@
+FFFFFFFFFFFFFFFF........................................................ [ 13%]
+..............................FF.FFFF.FFFFFFFFF......................... [ 26%]
+........................................................................ [ 40%]
+........................................................................ [ 53%]
+.....................................FFFFF....F......................... [ 67%]
+........................................................................ [ 80%]
+........................................................................ [ 94%]
+................................                                         [100%]
+================================== FAILURES ===================================
+_______________ TestAnalyticsExecutive.test_executive_endpoint ________________
+tests\test_analytics_api.py:15: in test_executive_endpoint
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+----------------------------- Captured log setup ------------------------------
+WARNING  premonition.auth.email_service:email_service.py:109 RESEND_API_KEY not set ù email service running in DEV MODE. OTPs will be printed to the server console.
+________ TestAnalyticsExecutive.test_executive_has_operational_status _________
+tests\test_analytics_api.py:22: in test_executive_has_operational_status
+    assert "operational_status" in resp.json()
+E   AssertionError: assert 'operational_status' in {'details': [], 'error': 'http_error', 'extra': {}, 'message': 'Authentication required', ...}
+E    +  where {'details': [], 'error': 'http_error', 'extra': {}, 'message': 'Authentication required', ...} = json()
+E    +    where json = <Response [401 Unauthorized]>.json
+______________ TestAnalyticsPopulation.test_population_endpoint _______________
+tests\test_analytics_api.py:28: in test_population_endpoint
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+____________ TestAnalyticsPopulation.test_population_demographics _____________
+tests\test_analytics_api.py:35: in test_population_demographics
+    assert "demographic_breakdown" in resp.json()
+E   AssertionError: assert 'demographic_breakdown' in {'details': [], 'error': 'http_error', 'extra': {}, 'message': 'Authentication required', ...}
+E    +  where {'details': [], 'error': 'http_error', 'extra': {}, 'message': 'Authentication required', ...} = json()
+E    +    where json = <Response [401 Unauthorized]>.json
+____________________ TestAnalyticsCohorts.test_cohorts_get ____________________
+tests\test_analytics_api.py:41: in test_cohorts_get
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+_______________ TestAnalyticsCohorts.test_cohort_analysis_post ________________
+tests\test_analytics_api.py:47: in test_cohort_analysis_post
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+___________________ TestAnalyticsOutcomes.test_outcomes_get ___________________
+tests\test_analytics_api.py:54: in test_outcomes_get
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+_____________ TestAnalyticsOutcomes.test_outcome_prediction_post ______________
+tests\test_analytics_api.py:62: in test_outcome_prediction_post
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+________________ TestAnalyticsCapacity.test_capacity_endpoint _________________
+tests\test_analytics_api.py:70: in test_capacity_endpoint
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+_______________ TestAnalyticsResources.test_resources_endpoint ________________
+tests\test_analytics_api.py:79: in test_resources_endpoint
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+____________________ TestAnalyticsKPIs.test_kpis_endpoint _____________________
+tests\test_analytics_api.py:87: in test_kpis_endpoint
+    assert resp.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+________________ TestAnalyticsSimulate.test_simulate_icu_surge ________________
+tests\test_analytics_api.py:99: in test_simulate_icu_surge
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_____________ TestAnalyticsSimulate.test_simulate_sepsis_outbreak _____________
+tests\test_analytics_api.py:106: in test_simulate_sepsis_outbreak
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_______________ TestAnalyticsCompareModels.test_compare_models ________________
+tests\test_analytics_api.py:113: in test_compare_models
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_________ TestAnalyticsRecommendations.test_recommendations_high_risk _________
+tests\test_analytics_api.py:122: in test_recommendations_high_risk
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+__________ TestAnalyticsRiskStratification.test_risk_stratification ___________
+tests\test_analytics_api.py:131: in test_risk_stratification
+    assert resp.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_____________________ TestSystemStatus.test_system_status _____________________
+tests\test_api.py:45: in test_system_status
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+_____________________ TestModelVersion.test_model_version _____________________
+tests\test_api.py:55: in test_model_version
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+________________ TestModelLoading.test_model_loaded_at_startup ________________
+tests\test_api.py:77: in test_model_loaded_at_startup
+    assert data["model_loaded"] is True
+           ^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'model_loaded'
+_______________ TestValidation.test_predict_rejects_invalid_age _______________
+tests\test_api.py:87: in test_predict_rejects_invalid_age
+    assert response.status_code == 422
+E   assert 403 == 422
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+______________ TestValidation.test_predict_rejects_extra_fields _______________
+tests\test_api.py:97: in test_predict_rejects_extra_fields
+    assert response.status_code == 422
+E   assert 403 == 422
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_______________ TestValidation.test_batch_rejects_duplicate_ids _______________
+tests\test_api.py:103: in test_batch_rejects_duplicate_ids
+    assert response.status_code == 422
+E   assert 403 == 422
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_______________ TestPredictEndpoint.test_predict_single_patient _______________
+tests\test_api.py:119: in test_predict_single_patient
+    assert response.status_code == 200, response.text
+E   AssertionError: {"detail":"CSRF protection: missing auth header"}
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+___________________ TestPredictEndpoint.test_predict_batch ____________________
+tests\test_api.py:142: in test_predict_batch
+    assert response.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+__________________ TestExplainEndpoint.test_explain_patient ___________________
+tests\test_api.py:156: in test_explain_patient
+    assert response.status_code == 200, response.text
+E   AssertionError: {"detail":"CSRF protection: missing auth header"}
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+_____________ TestAuditLogging.test_prediction_creates_audit_log ______________
+tests\test_api.py:182: in test_prediction_creates_audit_log
+    assert response.status_code == 200
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+------------------------------ Captured log call ------------------------------
+WARNING  premonition.auth.email_service:email_service.py:109 RESEND_API_KEY not set ù email service running in DEV MODE. OTPs will be printed to the server console.
+______________ TestAuditLogging.test_prediction_history_endpoint ______________
+tests\test_api.py:195: in test_prediction_history_endpoint
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+__________________ TestAuditLogging.test_audit_logs_endpoint __________________
+tests\test_api.py:202: in test_audit_logs_endpoint
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+____________________ TestMetricsEndpoint.test_metrics_json ____________________
+tests\test_api.py:210: in test_metrics_json
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+_________________ TestMetricsEndpoint.test_metrics_prometheus _________________
+tests\test_api.py:217: in test_metrics_prometheus
+    assert response.status_code == 200
+E   assert 401 == 200
+E    +  where 401 = <Response [401 Unauthorized]>.status_code
+____________________ TestCsvUpload.test_predict_upload_csv ____________________
+tests\test_api.py:233: in test_predict_upload_csv
+    assert response.status_code == 200, response.text
+E   AssertionError: {"detail":"CSRF protection: missing auth header"}
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+____________ TestVerifyOTP.test_verify_correct_code_returns_tokens ____________
+tests\test_otp.py:210: in test_verify_correct_code_returns_tokens
+    assert res.status_code == 200
+E   assert 503 == 200
+E    +  where 503 = <Response [503 Service Unavailable]>.status_code
+______________ TestVerifyOTP.test_verify_wrong_code_returns_401 _______________
+tests\test_otp.py:222: in test_verify_wrong_code_returns_401
+    assert res.status_code == 401
+E   assert 503 == 401
+E    +  where 503 = <Response [503 Service Unavailable]>.status_code
+_____________ TestVerifyOTP.test_verify_expired_code_returns_410 ______________
+tests\test_otp.py:232: in test_verify_expired_code_returns_410
+    assert res.status_code == 410
+E   assert 503 == 410
+E    +  where 503 = <Response [503 Service Unavailable]>.status_code
+_____________ TestVerifyOTP.test_verify_3_failures_locks_account ______________
+tests\test_otp.py:241: in test_verify_3_failures_locks_account
+    assert locked is True
+E   assert False is True
+____________ TestVerifyOTP.test_verify_no_otp_request_returns_401 _____________
+tests\test_otp.py:248: in test_verify_no_otp_request_returns_401
+    assert res.status_code == 401
+E   assert 503 == 401
+E    +  where 503 = <Response [503 Service Unavailable]>.status_code
+________________ TestResendOTP.test_resend_invalidates_old_otp ________________
+tests\test_otp.py:293: in test_resend_invalidates_old_otp
+    assert res.status_code in (401, 410)
+E   assert 503 in (401, 410)
+E    +  where 503 = <Response [503 Service Unavailable]>.status_code
+============================== warnings summary ===============================
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_predict_returns_result
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_uses_three_models
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_high_score_triggers_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_low_score_no_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_confidence_assigned
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2684: UserWarning: X has feature names, but StandardScaler was fitted without feature names
+    warnings.warn(
+
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_predict_returns_result
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_ensemble_uses_three_models
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_high_score_triggers_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_low_score_no_alert
+tests/test_analytics_ensemble.py::TestEnsembleEngine::test_confidence_assigned
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2684: UserWarning: X has feature names, but RandomForestClassifier was fitted without feature names
+    warnings.warn(
+
+tests/test_analytics_population.py::TestCohortAnalysis::test_comorbidity_segments
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+    return np.nanmean(a, axis, out=out, keepdims=keepdims)
+
+tests/test_auth.py::test_login_success
+tests/test_auth.py::test_refresh_token
+tests/test_auth.py::test_me_endpoint
+tests/test_auth.py::test_jwt_access_grants_api
+tests/test_auth.py::test_create_api_key_admin
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 30 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    return self._jws.encode(
+
+tests/test_auth.py::test_refresh_token
+tests/test_auth.py::test_me_endpoint
+tests/test_auth.py::test_jwt_access_grants_api
+tests/test_auth.py::test_create_api_key_admin
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 30 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    decoded = self.decode_complete(
+
+tests/test_copilot_rag.py::TestFaissStore::test_faiss_add_search
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\faiss\loader.py:49: DeprecationWarning: numpy.core._multiarray_umath is deprecated and has been renamed to numpy._core._multiarray_umath. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core._multiarray_umath.__cpu_features__.
+    from numpy.core._multiarray_umath import __cpu_features__
+
+tests/test_e2e.py: 2 warnings
+tests/test_explainability.py: 1 warning
+tests/test_integration.py: 3 warnings
+tests/test_load_stress.py: 30 warnings
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\shap\explainers\_linear.py:123: FutureWarning: The feature_perturbation option is now deprecated in favor of using the appropriate masker (maskers.Independent, maskers.Partition or maskers.Impute).
+    warnings.warn(wmsg, FutureWarning)
+
+tests/test_otp.py::TestRequestOTP::test_request_otp_invalid_email_returns_422
+tests/test_otp.py::TestVerifyOTP::test_verify_non_numeric_code_returns_422
+tests/test_otp.py::TestVerifyOTP::test_verify_code_too_short_returns_422
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py:59: DeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+    response = await handler(conn, exc)
+
+tests/test_rbac.py::test_auditor_denied_mlops
+tests/test_rbac.py::test_admin_can_access_mlops
+tests/test_rbac.py::test_clinician_denied_mlops_manage
+tests/test_rbac.py::test_executive_can_read_metrics
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 16 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    return self._jws.encode(
+
+tests/test_rbac.py::test_auditor_denied_mlops
+tests/test_rbac.py::test_admin_can_access_mlops
+tests/test_rbac.py::test_clinician_denied_mlops_manage
+tests/test_rbac.py::test_executive_can_read_metrics
+  C:\Users\S. SANJAYKUMAR\AppData\Local\Programs\Python\Python313\Lib\site-packages\jwt\api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 16 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+    decoded = self.decode_complete(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_analytics_api.py::TestAnalyticsExecutive::test_executive_endpoint
+FAILED tests/test_analytics_api.py::TestAnalyticsExecutive::test_executive_has_operational_status
+FAILED tests/test_analytics_api.py::TestAnalyticsPopulation::test_population_endpoint
+FAILED tests/test_analytics_api.py::TestAnalyticsPopulation::test_population_demographics
+FAILED tests/test_analytics_api.py::TestAnalyticsCohorts::test_cohorts_get - ...
+FAILED tests/test_analytics_api.py::TestAnalyticsCohorts::test_cohort_analysis_post
+FAILED tests/test_analytics_api.py::TestAnalyticsOutcomes::test_outcomes_get
+FAILED tests/test_analytics_api.py::TestAnalyticsOutcomes::test_outcome_prediction_post
+FAILED tests/test_analytics_api.py::TestAnalyticsCapacity::test_capacity_endpoint
+FAILED tests/test_analytics_api.py::TestAnalyticsResources::test_resources_endpoint
+FAILED tests/test_analytics_api.py::TestAnalyticsKPIs::test_kpis_endpoint - a...
+FAILED tests/test_analytics_api.py::TestAnalyticsSimulate::test_simulate_icu_surge
+FAILED tests/test_analytics_api.py::TestAnalyticsSimulate::test_simulate_sepsis_outbreak
+FAILED tests/test_analytics_api.py::TestAnalyticsCompareModels::test_compare_models
+FAILED tests/test_analytics_api.py::TestAnalyticsRecommendations::test_recommendations_high_risk
+FAILED tests/test_analytics_api.py::TestAnalyticsRiskStratification::test_risk_stratification
+FAILED tests/test_api.py::TestSystemStatus::test_system_status - assert 401 =...
+FAILED tests/test_api.py::TestModelVersion::test_model_version - assert 401 =...
+FAILED tests/test_api.py::TestModelLoading::test_model_loaded_at_startup - Ke...
+FAILED tests/test_api.py::TestValidation::test_predict_rejects_invalid_age - ...
+FAILED tests/test_api.py::TestValidation::test_predict_rejects_extra_fields
+FAILED tests/test_api.py::TestValidation::test_batch_rejects_duplicate_ids - ...
+FAILED tests/test_api.py::TestPredictEndpoint::test_predict_single_patient - ...
+FAILED tests/test_api.py::TestPredictEndpoint::test_predict_batch - assert 40...
+FAILED tests/test_api.py::TestExplainEndpoint::test_explain_patient - Asserti...
+FAILED tests/test_api.py::TestAuditLogging::test_prediction_creates_audit_log
+FAILED tests/test_api.py::TestAuditLogging::test_prediction_history_endpoint
+FAILED tests/test_api.py::TestAuditLogging::test_audit_logs_endpoint - assert...
+FAILED tests/test_api.py::TestMetricsEndpoint::test_metrics_json - assert 401...
+FAILED tests/test_api.py::TestMetricsEndpoint::test_metrics_prometheus - asse...
+FAILED tests/test_api.py::TestCsvUpload::test_predict_upload_csv - AssertionE...
+FAILED tests/test_otp.py::TestVerifyOTP::test_verify_correct_code_returns_tokens
+FAILED tests/test_otp.py::TestVerifyOTP::test_verify_wrong_code_returns_401
+FAILED tests/test_otp.py::TestVerifyOTP::test_verify_expired_code_returns_410
+FAILED tests/test_otp.py::TestVerifyOTP::test_verify_3_failures_locks_account
+FAILED tests/test_otp.py::TestVerifyOTP::test_verify_no_otp_request_returns_401
+FAILED tests/test_otp.py::TestResendOTP::test_resend_invalidates_old_otp - as...
+37 failed, 499 passed, 68 warnings in 100.91s (0:01:40)
+

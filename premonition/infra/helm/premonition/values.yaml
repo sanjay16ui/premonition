@@ -1,0 +1,60 @@
+replicaCount: 2
+
+image:
+  repository: premonition-ml
+  tag: "0.1.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
+
+ingress:
+  enabled: true
+  className: nginx
+  host: api.premonition.health
+  tls: true
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 1Gi
+  limits:
+    cpu: 2
+    memory: 4Gi
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilization: 70
+  targetMemoryUtilization: 80
+
+config:
+  tier: t1
+  logLevel: INFO
+  corsOrigins: "https://premonition.health"
+  realtimeEnabled: true
+
+secrets:
+  jwtSecret: ""
+  apiKey: ""
+
+persistence:
+  models:
+    enabled: true
+    size: 10Gi
+  logs:
+    enabled: true
+    size: 5Gi
+
+monitoring:
+  prometheus:
+    enabled: true
+  grafana:
+    enabled: true
+
+backup:
+  enabled: true
+  schedule: "0 2 * * *"

@@ -1,0 +1,18 @@
+{
+  "id": "bed4d9c9-ff1a-4384-807e-58d35bcf3279",
+  "title": "What is the normal range for heart rate?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the normal range for heart rate?"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the American Heart Association (AHA), a normal heart rate for adults is typically between 60-100 beats per minute (bpm) at rest. (Source: American Heart Association, \"Heart Rate and Blood Pressure Measurement\")\n\nFor pt-1, I would like to know their age and any relevant medical history to provide a more accurate assessment of their heart rate.\n\nPlease provide the following information:\n\n- Age\n- Medical history (if any)\n- Current heart rate measurement (if available)"
+    }
+  ],
+  "created_at": "2026-06-07T11:20:26.397640+00:00",
+  "updated_at": "2026-06-07T11:20:27.232777+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

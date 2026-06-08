@@ -1,0 +1,18 @@
+{
+  "id": "e7681b3f-0e5f-4037-aea9-bbb9c95df4df",
+  "title": "Quick question 0",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 0"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the context, I recommend the following:\n\nImmediate Next Step: Measure lactate levels for the patient within the next 30 minutes.\n\nRationale: According to the Sepsis-3 guidelines and our sepsis protocol, all sepsis patients require lactate measurement within 1 hour. Given the urgency of this requirement, I suggest measuring lactate levels as soon as possible to inform timely decision-making.\n\nPlease proceed with ordering a lactate test and notify the laboratory to prioritize the result."
+    }
+  ],
+  "created_at": "2026-06-07T12:56:26.202563+00:00",
+  "updated_at": "2026-06-07T12:56:33.122349+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

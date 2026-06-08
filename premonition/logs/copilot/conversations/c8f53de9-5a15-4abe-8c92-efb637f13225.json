@@ -1,0 +1,18 @@
+{
+  "id": "c8f53de9-5a15-4abe-8c92-efb637f13225",
+  "title": "Explain Sepsis-3 criteria",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain Sepsis-3 criteria"
+    },
+    {
+      "role": "assistant",
+      "content": "According to the Sepsis-3 criteria, which was introduced in 2016 by the Sepsis Definition Task Force, sepsis is defined as a life-threatening organ dysfunction caused by a dysregulated host response to infection (1).\n\nThe Sepsis-3 criteria consists of two main components: the Sepsis-3 definition and the Sequential Organ Failure Assessment (SOFA) score.\n\n**Sepsis-3 Definition:**\n\nThe Sepsis-3 definition is based on the presence of a suspected or confirmed infection, plus a Sequential Organ Failure Assessment (SOFA) score of 2 or higher (1).\n\n**Sequential Organ Failure Assessment (SOFA) Score:**\n\nThe SOFA score is a widely used scoring system to assess the severity of organ dysfunction in critically ill patients. It evaluates six different organ systems: respiratory, cardiovascular, hepatic, coagulation, renal, and neurological (2).\n\nThe SOFA score ranges from 0 to 24, with higher scores indicating greater organ dysfunction. A SOFA score of 2 or higher is considered indicative of organ dysfunction, which is a key component of the Sepsis-3 definition.\n\n**Sepsis-3 Classification:**\n\nThe Sepsis-3 criteria also introduces a new classification system, which categorizes sepsis into three stages:\n\n1. **Sepsis:** A suspected or confirmed infection, plus a SOFA score of 2 or higher.\n2. **Septic shock:** Sepsis, plus a vasopressor requirement to maintain a mean arterial pressure of 65 mmHg or higher, and a serum lactate level of 2 mmol/L or higher.\n3. **Post-septic shock:** A patient who has recovered from septic shock, but still has a SOFA score of 2 or higher.\n\nReferences:\n\n1. Singer et al. (2016). The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). Journal of the American Medical Association, 315(8), 801-810. doi: 10.1001/jama.2016.0287\n2. Vincent et al. (1996). The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. Intensive Care Medicine, 22(7), 707-710. doi: 10.1007/BF01709751"
+    }
+  ],
+  "created_at": "2026-06-07T11:19:58.857239+00:00",
+  "updated_at": "2026-06-07T11:20:00.634290+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

@@ -1,0 +1,533 @@
+[
+  {
+    "id": "b4b496f5-f3e9-4c05-8995-acd27312c111",
+    "title": "Sepsis-3 Criteria",
+    "doc_type": "protocol",
+    "content": "Sepsis is life-threatening organ dysfunction caused by dysregulated host response to infection. qSOFA criteria include altered mental status, systolic BP <=100, respiratory rate >=22.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:20:19.805896+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "66e9d1ee-46a8-4da2-a370-0707bdca9ccb",
+    "title": "SSC Hour-1 Bundle",
+    "doc_type": "protocol",
+    "content": "Within 1 hour: measure lactate, obtain blood cultures, administer broad-spectrum antibiotics, begin fluid resuscitation for hypotension.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:20:19.807310+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "d9c7f397-0840-4aad-9b33-015d025b1fc5",
+    "title": "PREMONITION Model",
+    "doc_type": "protocol",
+    "content": "PREMONITION uses logistic regression, random forest, and XGBoost ensemble for ICU sepsis early warning with SHAP explainability.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:20:19.808747+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "8b036453-1089-40a4-9625-7b2f22ee78d6",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:20:36.907734+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "f1fa9bac-6f08-4133-83ab-15468b0bbb0a",
+    "title": "Custom SOP",
+    "doc_type": "sop",
+    "content": "ICU rounding every 4 hours for sepsis patients.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:20:55.833264+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "e1099caf-c2ca-45aa-ac12-f2a7b63beaf1",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:36:10.586152+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "3fb3e52b-45be-4e77-a1bc-c7badea574a4",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:36:21.572961+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "2bcd425d-10e5-436b-b7cc-e4d8758262d9",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:39:05.295554+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "f38c4431-caec-4133-872d-350185652d23",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:39:16.303241+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "bfc0f3d1-0403-4b1e-9bdc-e0910bcb9cd2",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:41:50.623473+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "919c94fa-2685-492d-83eb-e81da094d35d",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:42:00.240037+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "26c14bda-c23b-4b0c-a8f5-32f39dbb44c6",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:52:43.616539+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "1fe837ca-3ab2-4530-8f04-27cb6dd399f5",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:52:53.005222+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "97399c56-a831-4905-a3a6-e26a51183216",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:54:38.470447+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "85753e5a-c596-4878-8ae3-8a1e0d63e247",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T15:54:48.104781+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "1762a781-ae68-42b9-a3af-1335385b0da6",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:00:38.982836+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "bcc407f4-974f-4a73-8dcf-6762033149fc",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:01:04.949649+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "728aee0e-23a2-4c45-a879-5ed3103d9b7a",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:02:47.733317+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "633b70ea-feb3-4698-8398-2c6ca7c4e566",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:04:01.282802+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "e384efd1-c9a2-4bd9-89b2-3a271a7a7b33",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:04:10.546475+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "dbccbd9b-c0bf-4c99-ad65-f3ed999b7d2a",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:09:52.977912+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "11fc1f80-0586-4a20-90bf-755176fde739",
+    "title": "Custom SOP",
+    "doc_type": "sop",
+    "content": "ICU rounding every 4 hours for sepsis patients.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:09:54.445612+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "96798b67-f331-4865-88ac-56c8255bfae2",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:10:10.307928+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "cd51a5d7-14eb-4417-92ba-194a516a7e62",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:16:07.640106+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "bc2b1ad2-bf9a-461f-aa80-0580be6adf78",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:20:46.932120+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "a0dcb724-aba7-4286-863c-d7d854f5a38c",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:20:59.801353+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "3a8ae592-2e89-453b-8a6f-e400d18d9cbf",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:37:10.919654+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "d7277981-9697-42a0-a79b-c5d92938e362",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-05T16:37:23.284144+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "3dae7179-2208-4b99-bf0b-69254be22b73",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:36:13.458750+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "80a5c194-7b40-4d5a-9186-7466a22c32e8",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:36:25.647915+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "4a09e716-504e-4266-8a0f-d99ab45eff87",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:41:46.420631+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "d556646e-e307-48b4-b913-ff5c6075523e",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:41:56.367492+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "af05393d-cbc2-4701-93fb-533fcf8c127d",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:52:05.017243+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "1a9e445f-fc43-422c-ab69-aa5fdeebb7f9",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T01:52:14.991853+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "ac26b87d-d676-417f-a504-217716afb9f8",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T13:49:25.918768+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "9f8a3696-180f-41e9-a770-6f7c3fb3ea20",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T13:50:24.793427+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "24fd0105-1a22-43c6-8d3c-56bbb042f0ff",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T14:27:59.441170+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "3748e382-8510-43e2-8097-4dbc07bf7913",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T14:28:16.853055+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "4bc01afd-f017-4f5d-b072-3968dca509ef",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:37:23.806771+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "332d40bb-4e4e-41e2-9f57-faf6c3907778",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:37:43.874628+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "46ec14fe-bd09-473a-a5b3-9a36b0349469",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:38:38.597127+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "32bcb9ff-6e0f-4d62-9fd3-7a175a391010",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:38:55.530575+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "f2d35586-9a18-45cb-87bc-af7ced00c7dc",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:45:01.210804+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "cca72ed4-2710-4cd7-bf59-8843cc266623",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:45:13.814140+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "dc3b362a-a938-4f53-841d-8bd9b86f0e7f",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:46:24.619626+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "1371c7fb-bcd8-4c05-8f6e-c40d64a6f114",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:46:38.184641+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "f5c1af1a-9655-4bb5-9dbb-e3a7f8a1264d",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:58:06.555868+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "6d9a7d03-c870-42d7-9e9d-c66b22b2f17f",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T15:58:19.936256+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "7f50acb7-b92e-4f68-83b4-63f2be61d48a",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T16:04:07.655719+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "6c843885-521e-4699-9414-21425669c954",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-06T16:04:46.782794+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "e1c2e026-f83e-4daa-91df-8c28de5e4c50",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T11:20:15.202999+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "1e877c85-f189-4072-9731-f61cd45a08f2",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T11:21:55.375110+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "aafc22c4-e79b-451f-952e-9136a0f88905",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:01:57.484099+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "c5e448d0-c536-43f8-838e-9a0f552e6372",
+    "title": "Custom SOP",
+    "doc_type": "sop",
+    "content": "ICU rounding every 4 hours for sepsis patients.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:09:05.830710+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "4b8566c6-6c61-4476-8c18-bf8baf53161f",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:38:50.311616+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "853d086d-a76c-4c5c-88c8-b549e347194c",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:41:34.774018+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "13a69a3c-762d-4566-b6e7-fdb62106706c",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:52:16.378679+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "145dcdf4-60d1-4850-999a-d4579b869105",
+    "title": "Test Protocol",
+    "doc_type": "protocol",
+    "content": "All sepsis patients require lactate measurement within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:56:23.815884+00:00",
+    "chunk_count": 1
+  },
+  {
+    "id": "a7abc2cc-7aa0-4463-a9e6-ea55d8a2fb82",
+    "title": "E2E Protocol",
+    "doc_type": "text",
+    "content": "Sepsis protocol: measure lactate within 1 hour.",
+    "metadata": {},
+    "ingested_at": "2026-06-07T12:59:37.805607+00:00",
+    "chunk_count": 1
+  }
+]

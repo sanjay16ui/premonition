@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "premonition.fullname" . }}
+  labels:
+    {{- include "premonition.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "premonition.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "premonition.selectorLabels" . | nindent 8 }}
+    spec:
+      containers:
+        - name: api
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command: ["api"]
+          ports:
+            - containerPort: {{ .Values.service.targetPort }}
+          env:
+            - name: PREMONITION_TIER
+              value: {{ .Values.config.tier | quote }}
+            - name: PREMONITION_LOG_LEVEL
+              value: {{ .Values.config.logLevel | quote }}
+            - name: PREMONITION_CORS_ORIGINS
+              value: {{ .Values.config.corsOrigins | quote }}
+            - name: PREMONITION_JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "premonition.fullname" . }}-secrets
+                  key: jwt-secret
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          livenessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: {{ .Values.service.targetPort }}
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: {{ .Values.service.targetPort }}
+            initialDelaySeconds: 30
+            periodSeconds: 10

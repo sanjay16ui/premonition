@@ -1,0 +1,18 @@
+{
+  "id": "89c1f4e4-1dc9-4218-84f4-8333f9c6a565",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "To initiate our conversation, I need some patient information. Please provide the patient's age, current vital signs (temperature, heart rate, blood pressure, respiratory rate, oxygen saturation), and any relevant medical history or current diagnosis.\n\nOnce I have this information, I can provide a tailored response with evidence-based recommendations and specific actionable steps.\n\n(Note: Please provide actual patient data to ensure accurate and personalized advice.)"
+    }
+  ],
+  "created_at": "2026-06-07T12:58:57.213671+00:00",
+  "updated_at": "2026-06-07T12:58:58.475735+00:00",
+  "user_id": "user1",
+  "metadata": {}
+}

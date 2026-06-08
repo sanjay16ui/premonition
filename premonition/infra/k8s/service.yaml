@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: premonition-api
+  namespace: premonition
+  labels:
+    app: premonition-api
+spec:
+  type: ClusterIP
+  selector:
+    app: premonition-api
+  ports:
+    - port: 80
+      targetPort: 8000
+      protocol: TCP
+      name: http

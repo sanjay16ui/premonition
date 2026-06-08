@@ -1,0 +1,18 @@
+{
+  "id": "ca263b9f-a0b6-43ed-9f78-a1315c8f6c04",
+  "title": "Quick question 0",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 0"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, I would say: \n\nYes, all sepsis patients require lactate measurement within 1 hour."
+    }
+  ],
+  "created_at": "2026-06-07T11:22:23.935885+00:00",
+  "updated_at": "2026-06-07T11:22:24.606665+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

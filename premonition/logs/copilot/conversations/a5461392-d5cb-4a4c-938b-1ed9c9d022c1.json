@@ -1,0 +1,18 @@
+{
+  "id": "a5461392-d5cb-4a4c-938b-1ed9c9d022c1",
+  "title": "Give me a 1 sentence summary of sepsis.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me a 1 sentence summary of sepsis."
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis is a life-threatening condition that occurs when the body's response to an infection becomes uncontrolled and causes widespread inflammation, potentially leading to organ failure (1).\n\nReference:\n(1) Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-810. doi: 10.1001/jama.2016.0287"
+    }
+  ],
+  "created_at": "2026-06-07T11:20:19.804938+00:00",
+  "updated_at": "2026-06-07T11:20:21.329545+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

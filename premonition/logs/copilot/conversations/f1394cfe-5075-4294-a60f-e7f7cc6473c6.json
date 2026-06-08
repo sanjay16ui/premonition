@@ -1,0 +1,18 @@
+{
+  "id": "f1394cfe-5075-4294-a60f-e7f7cc6473c6",
+  "title": "Quick question 1",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 1"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient ID: 12345\n\nCurrent Vitals:\n- Temperature: 38.5\u00b0C\n- Heart Rate: 120 bpm\n- Blood Pressure: 90/60 mmHg\n- Respiratory Rate: 30 breaths/min\n- Oxygen Saturation: 92% on 4L nasal cannula\n- Lactate: 4.2 mmol/L (measured 2 hours ago)\n\nAccording to the Sepsis-3 guidelines, lactate measurement is a critical component of sepsis diagnosis and management. Given the patient's elevated lactate level (4.2 mmol/L) and the time elapsed since the last measurement (2 hours), I recommend the following:\n\nImmediate Next Steps:\n1. Order a stat lactate measurement to be performed within the next 30 minutes.\n2. Review the patient's fluid status and consider administering 30 mL/kg of crystalloid within the next hour to maintain or increase mean arterial pressure (MAP) above 65 mmHg, as per the SSC guidelines.\n\nReasoning: The patient's elevated lactate level and clinical presentation are concerning for sepsis. Prompt lactate measurement and fluid resuscitation are essential to guide further management and prevent organ dysfunction."
+    }
+  ],
+  "created_at": "2026-06-07T12:42:02.303005+00:00",
+  "updated_at": "2026-06-07T12:42:04.011459+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

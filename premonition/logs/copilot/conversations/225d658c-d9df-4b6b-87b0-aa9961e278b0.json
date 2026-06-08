@@ -1,0 +1,18 @@
+{
+  "id": "225d658c-d9df-4b6b-87b0-aa9961e278b0",
+  "title": "Quick question 4",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 4"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, I would answer:\n\nYes, according to the sepsis protocol, lactate measurement is required within 1 hour for all sepsis patients."
+    }
+  ],
+  "created_at": "2026-06-07T11:22:26.957311+00:00",
+  "updated_at": "2026-06-07T11:22:28.029948+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

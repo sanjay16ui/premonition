@@ -1,0 +1,18 @@
+{
+  "id": "0171aecc-f744-495c-b62b-18c5589519c4",
+  "title": "Test conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Test conv"
+    },
+    {
+      "role": "assistant",
+      "content": "Patient Status Summary:\n[1] All sepsis patients require lactate measurement within 1 hour.\n\nThe patient requires continued monitoring with attention to trending vitals and sepsis early-warning indicators."
+    }
+  ],
+  "created_at": "2026-06-05T16:09:53.145386+00:00",
+  "updated_at": "2026-06-05T16:09:53.148959+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

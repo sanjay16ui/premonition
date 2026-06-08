@@ -1,0 +1,12 @@
+apiVersion: v2
+name: premonition
+description: PREMONITION ICU sepsis early-warning platform
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - healthcare
+  - mlops
+  - sepsis
+maintainers:
+  - name: PREMONITION Team

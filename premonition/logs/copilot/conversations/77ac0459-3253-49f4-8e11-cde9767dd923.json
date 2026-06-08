@@ -1,0 +1,18 @@
+{
+  "id": "77ac0459-3253-49f4-8e11-cde9767dd923",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "To initiate our conversation, I need some context about the patient. Can you please provide me with the patient's age, current vital signs (e.g., temperature, heart rate, blood pressure, respiratory rate, oxygen saturation), and any relevant medical history or current diagnosis? This will enable me to provide a more accurate and tailored response.\n\nOnce I have this information, I can assess the patient's risk for sepsis or other critical conditions and provide evidence-based recommendations for immediate next steps.\n\nPlease provide the following patient data:\n\n1. Age\n2. Temperature (\u00b0C or \u00b0F)\n3. Heart rate (bpm)\n4. Blood pressure (mmHg)\n5. Respiratory rate (breaths/min)\n6. Oxygen saturation (%)\n7. Relevant medical history or current diagnosis\n\nWith this information, I can begin to assess the patient's condition and provide a clinical response."
+    }
+  ],
+  "created_at": "2026-06-07T12:54:47.977286+00:00",
+  "updated_at": "2026-06-07T12:54:51.783307+00:00",
+  "user_id": "user1",
+  "metadata": {}
+}

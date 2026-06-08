@@ -1,0 +1,152 @@
+# PREMONITION Feature Tier Definitions
+# Leakage policy: only T0/T1/T2 features permitted for early-warning training.
+
+target:
+  primary: sepsis_label
+  exclude_from_features:
+    - sepsis_label
+    - readmission_30day
+
+identifier:
+  - subject_id
+
+# T0 — Admission baseline (available at ICU admit)
+tier_t0_demographics:
+  - age
+  - gender
+  - weight_kg
+  - height_cm
+  - bmi
+  - ethnicity
+  - insurance
+
+tier_t0_comorbidities:
+  - diabetes
+  - hypertension
+  - chf
+  - copd
+  - chronic_kidney_disease
+  - liver_disease
+  - immunosuppression
+  - cad
+  - atrial_fibrillation
+  - cancer_active
+
+tier_t0_admin:
+  - hospital_admit_source
+  - icu_admit_time_hour
+  - day_of_week
+
+# T1 — Monitoring window aggregates (core early-warning signal)
+tier_t1_vitals:
+  - hr_mean
+  - hr_max
+  - hr_min
+  - hr_std
+  - sbp_mean
+  - sbp_max
+  - sbp_min
+  - sbp_std
+  - dbp_mean
+  - dbp_max
+  - dbp_min
+  - dbp_std
+  - map_mean
+  - temp_celsius_mean
+  - temp_celsius_max
+  - temp_celsius_min
+  - temp_celsius_std
+  - spo2_mean
+  - spo2_min
+  - spo2_max
+  - spo2_std
+  - respiratory_rate_mean
+  - respiratory_rate_max
+  - respiratory_rate_min
+  - respiratory_rate_std
+
+# T2 — Laboratory values (when available; use missing indicators)
+tier_t2_labs:
+  - wbc
+  - lactate_mmol
+  - creatinine
+  - platelet_count
+  - bilirubin_total
+  - glucose
+  - ph_arterial
+  - inr
+  - sodium
+  - potassium
+  - chloride
+  - bicarbonate
+  - hematocrit
+  - hemoglobin
+
+# EXCLUDED — Label leakage / concurrent severity / post-intervention
+excluded_leakage:
+  - pao2_fio2_ratio          # synthetic leakage: equals spo2_mean for all negatives
+  - sofa_score
+  - apache_iv
+  - qsofa
+  - sirs_criteria
+  - gcs_total
+
+excluded_interventions:
+  - vasopressors_flag
+  - mechanical_ventilation   # constant=1 across entire dataset
+  - fio2_percent
+  - antibiotics_24h
+  - fluids_ml_24h
+  - sedation_score
+  - vasopressor_dose_mcg_kg_min
+  - insulin_infusion_flag
+
+excluded_outcome_adjacent:
+  - icu_los_hours
+
+# Engineered features (computed in features/engineering.py)
+engineered:
+  - comorbidity_count
+  - shock_index
+  - pulse_pressure
+  - hr_range
+  - sbp_range
+  - temp_range
+  - spo2_range
+  - respiratory_rate_range
+
+# Categorical columns requiring encoding
+categorical:
+  - gender
+  - ethnicity
+  - insurance
+  - hospital_admit_source
+
+# Tier bundles used by training pipelines
+tiers:
+  t0:
+    description: "Admission baseline only"
+    includes_engineered:
+      - comorbidity_count
+  t1:
+    description: "Baseline + vital-sign instability (honest early-warning core)"
+    includes_engineered:
+      - comorbidity_count
+      - shock_index
+      - pulse_pressure
+      - hr_range
+      - sbp_range
+      - temp_range
+      - spo2_range
+      - respiratory_rate_range
+  t2:
+    description: "Baseline + vitals + labs with missing indicators"
+    includes_engineered:
+      - comorbidity_count
+      - shock_index
+      - pulse_pressure
+      - hr_range
+      - sbp_range
+      - temp_range
+      - spo2_range
+      - respiratory_rate_range

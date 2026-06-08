@@ -1,0 +1,18 @@
+{
+  "id": "14404d97-a3af-4e33-a8b6-ec1834b8a359",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the ML model analysis, the elevated sepsis risk is primarily driven by elevated vitals and comorbidities. The SHAP explanation indicates these features contributed most to the prediction score. Clinical correlation with Sepsis-3 criteria is recommended."
+    }
+  ],
+  "created_at": "2026-06-05T15:20:36.475255+00:00",
+  "updated_at": "2026-06-05T15:20:36.478291+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

@@ -1,0 +1,35 @@
+name: MLOps — Drift & Evaluation
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  drift-check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: premonition
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements-dev.txt
+      - name: Run drift detection tests
+        run: python -m pytest tests/test_drift.py tests/test_mlops.py -v
+      - name: Model evaluation report
+        run: |
+          python -c "
+          from pathlib import Path
+          from premonition.mlops.evaluation import compare_models, load_metrics_from_bundle
+          from premonition.config.settings import get_settings
+          s = get_settings()
+          bundle = s.models_dir / s.primary_tier / 'best_model'
+          if bundle.exists():
+              m = load_metrics_from_bundle(bundle)
+              print('Metrics:', m)
+          else:
+              print('No model bundle — run training first')
+          "

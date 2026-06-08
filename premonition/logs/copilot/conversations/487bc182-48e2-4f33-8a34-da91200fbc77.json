@@ -1,0 +1,18 @@
+{
+  "id": "487bc182-48e2-4f33-8a34-da91200fbc77",
+  "title": "Quick question 6",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 6"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'Quick question 6': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T16:17:23.721890+00:00",
+  "updated_at": "2026-06-05T16:17:23.723340+00:00",
+  "user_id": "dev",
+  "metadata": {}
+}

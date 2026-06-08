@@ -1,0 +1,18 @@
+{
+  "id": "fb2ef5db-30da-483c-b6c0-a99dba60472c",
+  "title": "What is the sepsis bundle?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the sepsis bundle?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on available PREMONITION platform data, regarding your question about 'What is the sepsis bundle?': the clinical AI copilot has analyzed predictions, monitoring data, and knowledge base sources. Referenced 1 context lines. Please verify all recommendations with clinical judgment."
+    }
+  ],
+  "created_at": "2026-06-05T15:52:50.848429+00:00",
+  "updated_at": "2026-06-05T15:52:50.849899+00:00",
+  "user_id": "clinician",
+  "metadata": {}
+}

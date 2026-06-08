@@ -1,0 +1,26 @@
+[
+  {
+    "email": "admin@premonition.health",
+    "password_hash": "$2b$12$lB6CpJgvPZLOGt1yoCJ.LuGgYD2EICCJ/alioUtLh24ch18GC1At6",
+    "role": "admin",
+    "active": true
+  },
+  {
+    "email": "clinician@premonition.health",
+    "password_hash": "$2b$12$M6LtPkEFUMNlGjbWyfgEOu.Uwab/wqW5jO8gjnfkq/47y.VV6prOK",
+    "role": "clinician",
+    "active": true
+  },
+  {
+    "email": "executive@premonition.health",
+    "password_hash": "$2b$12$zi8UKFS2ZCmFGJuqLuTghO0LZ8/9P4fpd0WcMDHGTuBHdjVeGpGo2",
+    "role": "executive",
+    "active": true
+  },
+  {
+    "email": "auditor@premonition.health",
+    "password_hash": "$2b$12$36le6GR08N3Oe57oZ42xuOsB.9rjTy6/JJsTDrLgQfpY5ey6.RDyu",
+    "role": "auditor",
+    "active": true
+  }
+]

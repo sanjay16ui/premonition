@@ -1,0 +1,18 @@
+{
+  "id": "a8d57d58-9c13-4f08-9fff-0b49ab25b0ac",
+  "title": "What is sepsis?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is sepsis?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sepsis is a potentially life-threatening condition that arises when the body's response to an infection damages its own tissues and organs. It occurs when the immune system reacts strongly to an infection, leading to inflammation throughout the body. This can cause blood pressure to drop, impairing blood flow and organ function. If left untreated, sepsis can lead to septic shock, multiple organ failure, and even death (Source: World Health Organization, 2021)."
+    }
+  ],
+  "created_at": "2026-06-07T10:50:30.316409+00:00",
+  "updated_at": "2026-06-07T10:51:12.167464+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

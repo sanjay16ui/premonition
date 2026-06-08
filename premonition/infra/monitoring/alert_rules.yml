@@ -1,0 +1,32 @@
+# PREMONITION Alert Rules (future Phase 7 — API deployment)
+# These rules fire when the API metrics endpoint is active.
+
+groups:
+  - name: premonition_alerts
+    rules:
+      - alert: HighPredictionLatency
+        expr: premonition_prediction_duration_seconds_p95 > 1.0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Prediction latency above 1 second"
+          description: "P95 prediction latency is {{ $value }}s"
+
+      - alert: HighSepsisAlertRate
+        expr: rate(premonition_sepsis_alerts_total[1h]) > 0.5
+        for: 10m
+        labels:
+          severity: info
+        annotations:
+          summary: "Elevated sepsis alert rate"
+          description: "More than 0.5 alerts per second over the last hour"
+
+      - alert: ModelLoadFailure
+        expr: premonition_model_loaded == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "ML model failed to load"
+          description: "PREMONITION cannot serve predictions"

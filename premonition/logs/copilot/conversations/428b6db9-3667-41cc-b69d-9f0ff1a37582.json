@@ -1,0 +1,18 @@
+{
+  "id": "428b6db9-3667-41cc-b69d-9f0ff1a37582",
+  "title": "Quick question 7",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Quick question 7"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the context provided, I will assume that we have a patient in the ICU who may be at risk for sepsis. To confirm this, I need some patient data. Please provide the following information:\n\n1. Patient's current lactate level (mmol/L)\n2. Patient's current heart rate (bpm)\n3. Patient's current mean arterial pressure (MAP) (mmHg)\n4. Patient's current respiratory rate (breaths/min)\n\nWith this information, I can provide a more informed response.\n\n(Note: Please provide the data, and I will generate a response based on the Sepsis-3 and SSC guidelines.)"
+    }
+  ],
+  "created_at": "2026-06-07T12:57:02.729968+00:00",
+  "updated_at": "2026-06-07T12:57:04.826195+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

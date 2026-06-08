@@ -1,0 +1,18 @@
+{
+  "id": "c753269a-5d51-490f-acf9-89cdd662b1d8",
+  "title": "Test conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Test conv"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, it seems you're testing the conversation. However, I'll provide a response as if we're discussing sepsis treatment guidelines.\n\nAccording to the Surviving Sepsis Campaign (SSC) guidelines, lactate measurement is indeed a crucial step in the early management of sepsis. The SSC recommends measuring lactate levels within 1 hour of presentation in all sepsis patients (Source: \"Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016\" by Rhodes et al., published in Intensive Care Medicine, 2017).\n\nWould you like to discuss further or test something else?"
+    }
+  ],
+  "created_at": "2026-06-07T11:20:16.097053+00:00",
+  "updated_at": "2026-06-07T11:20:17.836235+00:00",
+  "user_id": "legacy-api-key",
+  "metadata": {}
+}

@@ -1,0 +1,91 @@
+# PREMONITION Phase 1 Model Configuration
+
+target_column: sepsis_label
+primary_tier: t1
+
+split:
+  test_size: 0.10
+  val_size: 0.10
+  random_state: 42
+  stratify: true
+
+preprocessing:
+  imputation_strategy: median
+  add_missing_indicators: true
+  outlier_caps:
+    temp_celsius_mean: [30.0, 42.0]
+    temp_celsius_max: [30.0, 42.0]
+    temp_celsius_min: [30.0, 42.0]
+    hr_mean: [30.0, 220.0]
+    hr_max: [30.0, 250.0]
+    hr_min: [20.0, 200.0]
+    sbp_mean: [50.0, 220.0]
+    spo2_mean: [70.0, 100.0]
+    spo2_min: [70.0, 100.0]
+
+models:
+  xgboost:
+    name: xgboost
+    primary: true
+    params:
+      n_estimators: 300
+      max_depth: 5
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.8
+      min_child_weight: 3
+      gamma: 0.1
+      reg_alpha: 0.1
+      reg_lambda: 1.0
+      scale_pos_weight: 5.67   # 4250/750 class ratio
+      eval_metric: aucpr
+      random_state: 42
+      n_jobs: -1
+      verbosity: 0
+
+  random_forest:
+    name: random_forest
+    primary: false
+    params:
+      n_estimators: 300
+      max_depth: 12
+      min_samples_split: 10
+      min_samples_leaf: 5
+      class_weight: balanced
+      random_state: 42
+      n_jobs: -1
+
+  logistic_regression:
+    name: logistic_regression
+    primary: false
+    params:
+      C: 0.1
+      max_iter: 1000
+      class_weight: balanced
+      solver: lbfgs
+      random_state: 42
+
+evaluation:
+  primary_metric: average_precision
+  metrics:
+    - roc_auc
+    - average_precision
+    - f1
+    - precision
+    - recall
+    - brier_score
+  recall_at_fpr: 0.10
+  calibration_bins: 10
+
+shap:
+  max_samples: 500
+  plot_types:
+    - summary
+    - bar
+
+persistence:
+  format: joblib
+  save_preprocessor: true
+  save_metrics: true
+  save_shap: true
+  artifact_naming: "{model_name}_{tier}_{timestamp}"

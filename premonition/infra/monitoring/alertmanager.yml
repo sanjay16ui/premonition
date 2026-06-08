@@ -1,0 +1,30 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  group_by: ["alertname", "severity"]
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  receiver: premonition-team
+  routes:
+    - match:
+        severity: critical
+      receiver: premonition-oncall
+
+receivers:
+  - name: premonition-team
+    email_configs:
+      - to: "mlops@premonition.health"
+        send_resolved: true
+  - name: premonition-oncall
+    email_configs:
+      - to: "oncall@premonition.health"
+        send_resolved: true
+
+inhibit_rules:
+  - source_match:
+      severity: critical
+    target_match:
+      severity: warning
+    equal: ["alertname"]
